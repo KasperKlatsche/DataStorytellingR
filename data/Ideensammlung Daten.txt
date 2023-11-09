@@ -1,0 +1,8 @@
+Daten für dieses Projekt
+
+- Deutschte Bahn Daten
+  - https://developers.deutschebahn.com/db-api-marketplace/apis/
+- Finanzdaten
+  - https://finance.yahoo.com/
+- Klimadaten
+  - https://data.giss.nasa.gov/gistemp/
