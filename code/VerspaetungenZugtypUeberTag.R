@@ -3,7 +3,7 @@
 setwd("C:\\Users\\Julius\\Documents\\Daten\\Deutsche Bahn\\Datensaetze")
 data <- read.csv(file.choose())
 print(dim(data))
-data$zug <- as.factor(data$zug)
+data$zugTyp <- as.factor(data$zugTyp)
 data$von <- as.factor(data$von)
 data$nach <- as.factor(data$nach)
 
@@ -12,6 +12,6 @@ data$verzAbfahrt <- as.POSIXlt(paste(data$verzAbfahrtTag, data$verzAbfahrtZeit, 
 data$geplAnkunft <- as.POSIXlt(paste(data$geplAnkunftTag, data$geplAnkunftZeit, sep=" "),format="%Y-%m-%d %H:%M")
 data$verzAnkunft <- as.POSIXlt(paste(data$verzAnkunftTag, data$verzAnkunftZeit, sep=" "),format="%Y-%m-%d %H:%M")
 
-data <- data[,c(1:7,17:20,16)]
+data <- data[,c(1:8,18:21,17)]
 print(dim(data))
 print(summary(data))
