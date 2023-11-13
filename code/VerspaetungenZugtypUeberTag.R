@@ -1,6 +1,6 @@
 #Zwei Graphen nebeneinander zeigen Verspätungen nach Zug Typ über den Tagesverlauf
 
-setwd("C:\\Users\\Julius\\Documents\\Daten\\Deutsche Bahn\\Datensaetze")
+setwd("./data")
 data <- read.csv(file.choose())
 print(dim(data))
 data$zugTyp <- as.factor(data$zugTyp)
@@ -13,5 +13,9 @@ data$geplAnkunft <- as.POSIXlt(paste(data$geplAnkunftTag, data$geplAnkunftZeit, 
 data$verzAnkunft <- as.POSIXlt(paste(data$verzAnkunftTag, data$verzAnkunftZeit, sep=" "),format="%Y-%m-%d %H:%M")
 
 data <- data[,c(1:8,18:21,17)]
+
+#jetzt noch neue Spalten hinzufügen
+data$verspaetung <- as.numeric(data$verzAnkunft - data$geplAnkunft)/60
+
 print(dim(data))
 print(summary(data))
