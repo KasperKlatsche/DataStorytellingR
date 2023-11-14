@@ -100,25 +100,26 @@ for(bis in seq(from=as.POSIXct("2023-01-01 07:00"),to=as.POSIXct("2023-01-01 19:
   referenzFenster <- referenzVersp[which(referenzVersp$Plan>referenzVon & referenzVersp$Plan<=referenzBis),]
   
   #Graph erstellen - Dichte der Verspätungen nach Verkehrstypen
-  g1 <- ggplot(data = unnormalFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
+  g1 <- ggplot(data = referenzFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
     geom_density_ridges(alpha = 0.8, scale = 5) +
     scale_fill_viridis(option = "A", discrete = TRUE) +
     scale_color_viridis(option = "A", discrete = TRUE) + 
     theme_few() +
     xlim(0,60) + 
-    ggtitle(paste("Streik",unnormalBis)) +
-    theme(axis.title.y=element_blank(),
-          axis.text.y=element_blank())
+    ggtitle(paste("normaler Montag",referenzBis)) +
+    theme(axis.title.y=element_blank()) +
+    xlab("Verspätung in min")
 
-  g2 <- ggplot(data = referenzFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
+  g2 <- ggplot(data = unnormalFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
     geom_density_ridges(alpha = 0.8, scale = 5) +
     scale_fill_viridis(option = "A", discrete = TRUE) +
     scale_color_viridis(option = "A", discrete = TRUE) + 
     theme_few() +
     xlim(0,60) + 
-    ggtitle(paste("normaler Montag", referenzBis)) +
+    ggtitle(paste("Streik", unnormalBis)) +
     theme(axis.title.y=element_blank(),
-          axis.text.y=element_blank())
+          axis.text.y=element_blank())  +
+    xlab("Verspätung in min")
 
   g <- ggarrange(g1,g2,nrow=1,ncol=2,common.legend = T)
   print(g)
