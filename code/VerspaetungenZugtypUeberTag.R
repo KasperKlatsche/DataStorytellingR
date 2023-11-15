@@ -5,6 +5,7 @@ library(ggthemes)
 library(ggridges)
 library(viridis)
 library(ggpubr)
+library(gganimate)
 
 #--------------- zuerst funktionen erstellen -----------------------------------
 
