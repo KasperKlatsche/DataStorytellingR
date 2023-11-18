@@ -66,7 +66,7 @@ datenVorverarbeiten <- function(data) {
 }
 
 setwd("./data")
-unnormal <- read.csv("20231113_normalerMontag.csv")
+unnormal <- read.csv("20231118_normalerSamstag.csv")
 unnormal <- datenVorverarbeiten(unnormal)
 
 referenz <- read.csv("20231113_normalerMontag.csv")
@@ -98,7 +98,7 @@ g1 <- ggplot(data = unnormalVersp, aes(x = Verspaetung, y = Verkehrstyp, color =
   theme(legend.position = "none", axis.title.y=element_blank()) +
   xlim(0,60) + 
   xlab("Verspätung in min") +
-  labs(title = 'Streik: {frame_time}', x = 'Verspätung in min', y = 'Density') +
+  labs(title = 'Samstag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
   transition_time(Plan) +
   ease_aes('linear')
 g2 <- ggplot(data = referenzVersp, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
@@ -109,7 +109,7 @@ g2 <- ggplot(data = referenzVersp, aes(x = Verspaetung, y = Verkehrstyp, color =
   theme(legend.position = "none", axis.text.y=element_blank(), axis.title.y=element_blank()) +
   xlim(0,60) + 
   xlab("Verspätung in min") +
-  labs(title = 'normaler Montag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
+  labs(title = 'Montag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
   transition_time(Plan) +
   ease_aes('linear')
 
