@@ -6,6 +6,7 @@ library(ggridges)
 library(viridis)
 library(ggpubr)
 library(gganimate)
+library(magick)
 
 #--------------- zuerst funktionen erstellen -----------------------------------
 
@@ -76,52 +77,55 @@ referenz <- datenVorverarbeiten(referenz)
 
 verspaetungen <- function(data) {
   verspVerkehr <- data.frame(klassifikationVerkehr(data$zugTyp),data$verspaetung, data$geplAnkunft)
+  #alle Halte rauswerfen, die Startbahnhöfe sind und damit keine Verspätungen
   verspVerkehr <- verspVerkehr[-which(is.na(verspVerkehr[,2])),]
   names(verspVerkehr) <- c("Verkehrstyp","Verspaetung","Plan")
+  #jetzt noch das Zeitfenster von 0700 bis 1900 rausfiltern
+  start <- as.POSIXct(paste(substr(verspVerkehr$Plan[1],1,10), "07:00"))
+  ende <- as.POSIXct(paste(substr(verspVerkehr$Plan[1],1,10), "19:00"))
+  verspVerkehr <- verspVerkehr[which(verspVerkehr$Plan >= start & verspVerkehr$Plan <= ende),]
   return(verspVerkehr)
 }
 
 unnormalVersp <- verspaetungen(unnormal)
 referenzVersp <- verspaetungen(referenz)
 
-von <- -1
-for(bis in seq(from=as.POSIXct("2023-01-01 07:00"),to=as.POSIXct("2023-01-01 19:00"),length.out=25)) {
-  if(von == -1) {
-    von <- bis
-    next
-  }
-  
-  #zeitpunkte vorbereiten
-  unnormalVon <- as.POSIXct(paste(substr(unnormalVersp$Plan[1],1,10), substr(as.POSIXct(von, origin='1970-01-01 00:00.00 UTC'),12,16)))
-  unnormalBis <- as.POSIXct(paste(substr(unnormalVersp$Plan[1],1,10), substr(as.POSIXct(bis, origin='1970-01-01 00:00.00 UTC'),12,16)))
-  referenzVon <- as.POSIXct(paste(substr(referenzVersp$Plan[1],1,10), substr(as.POSIXct(von, origin='1970-01-01 00:00.00 UTC'),12,16)))
-  referenzBis <- as.POSIXct(paste(substr(referenzVersp$Plan[1],1,10), substr(as.POSIXct(bis, origin='1970-01-01 00:00.00 UTC'),12,16)))
-  
-  unnormalFenster <- unnormalVersp[which(unnormalVersp$Plan>unnormalVon & unnormalVersp$Plan<=unnormalBis),]
-  referenzFenster <- referenzVersp[which(referenzVersp$Plan>referenzVon & referenzVersp$Plan<=referenzBis),]
-  
-  #Graph erstellen - Dichte der Verspätungen nach Verkehrstypen
-  g1 <- ggplot(data = referenzFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
-    geom_density_ridges(alpha = 0.8, scale = 5) +
-    scale_fill_viridis(option = "A", discrete = TRUE) +
-    scale_color_viridis(option = "A", discrete = TRUE) + 
-    theme_few() +
-    xlim(0,60) + 
-    ggtitle(paste("normaler Montag",referenzBis)) +
-    theme(axis.title.y=element_blank()) +
-    xlab("Verspätung in min")
+g1 <- ggplot(data = unnormalVersp, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
+  geom_density_ridges(alpha = 0.8, scale = 5) +
+  scale_fill_viridis(option = "A", discrete = TRUE) +
+  scale_color_viridis(option = "A", discrete = TRUE) + 
+  theme_few() +
+  theme(legend.position = "none", axis.title.y=element_blank()) +
+  xlim(0,60) + 
+  xlab("Verspätung in min") +
+  labs(title = 'Streik: {frame_time}', x = 'Verspätung in min', y = 'Density') +
+  transition_time(Plan) +
+  ease_aes('linear')
+g2 <- ggplot(data = referenzVersp, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
+  geom_density_ridges(alpha = 0.8, scale = 5) +
+  scale_fill_viridis(option = "A", discrete = TRUE) +
+  scale_color_viridis(option = "A", discrete = TRUE) + 
+  theme_few() +
+  theme(legend.position = "none", axis.text.y=element_blank(), axis.title.y=element_blank()) +
+  xlim(0,60) + 
+  xlab("Verspätung in min") +
+  labs(title = 'normaler Montag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
+  transition_time(Plan) +
+  ease_aes('linear')
 
-  g2 <- ggplot(data = unnormalFenster, aes(x = Verspaetung, y = Verkehrstyp, color = Verkehrstyp, fill = Verkehrstyp)) +
-    geom_density_ridges(alpha = 0.8, scale = 5) +
-    scale_fill_viridis(option = "A", discrete = TRUE) +
-    scale_color_viridis(option = "A", discrete = TRUE) + 
-    theme_few() +
-    xlim(0,60) + 
-    ggtitle(paste("Streik", unnormalBis)) +
-    theme(axis.title.y=element_blank(),
-          axis.text.y=element_blank())  +
-    xlab("Verspätung in min")
+#Die Gifs rendern
+duration <- 50
+unnormalGif <- animate(g1, duration = duration, width = 390, height = 300)
+referenzGif <- animate(g2, duration = duration, width = 300, height = 300)
 
-  g <- ggarrange(g1,g2,nrow=1,ncol=2,common.legend = T)
-  print(g)
+#jetzt die Gifs zusammenführen
+unnormalGif <- image_read(unnormalGif)
+referenzGif <- image_read(referenzGif)
+
+outputGif <- image_append(c(unnormalGif[1], referenzGif[1]))
+for(i in 2:100){
+  combined <- image_append(c(unnormalGif[i], referenzGif[i]))
+  outputGif <- image_join(outputGif, combined)
 }
+
+print(outputGif)
