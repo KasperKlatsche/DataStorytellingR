@@ -87,6 +87,9 @@ verspaetungen <- function(data) {
   return(verspVerkehr)
 }
 
+#parameter
+skalaMax <- 120
+
 unnormalVersp <- verspaetungen(unnormal)
 referenzVersp <- verspaetungen(referenz)
 
@@ -96,7 +99,7 @@ g1 <- ggplot(data = unnormalVersp, aes(x = Verspaetung, y = Verkehrstyp, color =
   scale_color_viridis(option = "A", discrete = TRUE) + 
   theme_few() +
   theme(legend.position = "none", axis.title.y=element_blank()) +
-  xlim(0,60) + 
+  xlim(0,skalaMax) + 
   xlab("Verspätung in min") +
   labs(title = 'Samstag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
   transition_time(Plan) +
@@ -107,7 +110,7 @@ g2 <- ggplot(data = referenzVersp, aes(x = Verspaetung, y = Verkehrstyp, color =
   scale_color_viridis(option = "A", discrete = TRUE) + 
   theme_few() +
   theme(legend.position = "none", axis.text.y=element_blank(), axis.title.y=element_blank()) +
-  xlim(0,60) + 
+  xlim(0,skalaMax) + 
   xlab("Verspätung in min") +
   labs(title = 'Montag: {frame_time}', x = 'Verspätung in min', y = 'Density') +
   transition_time(Plan) +
@@ -118,9 +121,9 @@ duration <- 50
 unnormalGif <- animate(g1, duration = duration, width = 390, height = 300)
 referenzGif <- animate(g2, duration = duration, width = 300, height = 300)
 
-#jetzt die Gifs zusammenführen
-unnormalGif <- image_read(unnormalGif)
-referenzGif <- image_read(referenzGif)
+#jetzt die Gifs zusammenführen - scheinbar nicht mehr nötig, da animate jetzt ein magick-image auswirft
+#unnormalGif <- image_read(unnormalGif)
+#referenzGif <- image_read(referenzGif)
 
 outputGif <- image_append(c(unnormalGif[1], referenzGif[1]))
 for(i in 2:100){
