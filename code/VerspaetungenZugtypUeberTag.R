@@ -88,7 +88,7 @@ verspaetungen <- function(data) {
 }
 
 #parameter
-skalaMax <- 120
+skalaMax <- 150
 
 unnormalVersp <- verspaetungen(unnormal)
 referenzVersp <- verspaetungen(referenz)
