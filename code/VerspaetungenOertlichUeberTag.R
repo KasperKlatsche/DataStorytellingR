@@ -39,9 +39,12 @@ samstag <- datenVorverarbeiten(samstag)
 
 #---------------- Graphen zeichnen ---------------------------------------------
 
+data$geplAbfahrt <- as.POSIXct(data$geplAbfahrt)
 g <- ggplot(data, aes(y=breite,x=laenge,color=verspaetung)) +
   geom_jitter() +
   transition_time(geplAbfahrt) +
   ease_aes('linear')
 
-gif <- animate(g, duration = 50, width = 350, height = 500)
+#gif <- animate(g, duration = 50, width = 350, height = 500)
+
+anim_save("../graphs/verspaetungenOertlichUeberTag.gif", g)
