@@ -7,6 +7,9 @@ library(ncdf4)
 library(dwdradar)
 library(RCurl)
 
+#DWD muss wissen wo es die Daten zwischenspeichern darf
+setwd("./data")
+
 #Jahreszeitenmittel der Raster der monatlich gemittelten Lufttemperatur (2m) für Deutschland
 #https://opendata.dwd.de/climate_environment/CDC/grids_germany/seasonal/air_temperature_mean/16_DJF/
 link <- "seasonal/air_temperature_mean/16_DJF/grids_germany_seasonal_air_temp_mean_188216.asc.gz"
