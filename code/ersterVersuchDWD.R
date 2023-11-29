@@ -58,3 +58,29 @@ links <- indexFTP("", base=nwpbase, dir=tempdir())
 file <- dataDWD(links[1], base=nwpbase, joinbf=TRUE, dir=tempdir(), read=FALSE)
 forecast <- readDWD(file)
 plotRadar(forecast, main=".grib2", project=FALSE)
+
+#Zeitreihe für Luftdruck----------------------------------------------------------------
+link <- selectDWD("Potsdam", res="daily", var="kl", per="recent")
+clim <- dataDWD(link, force=NA, varnames=TRUE)
+str(clim)
+par(mar=c(4,4,2,0.5), mgp=c(2.7, 0.8, 0), cex=0.8)
+plot(clim[,c(2,14)], type="l", xaxt="n", las=1, main="Daily temp Potsdam")
+berryFunctions::monthAxis()   ;   abline(h=0)
+mtext("Source: Deutscher Wetterdienst", adj=-0.1, line=0.5, font=3)
+
+#Langzeit Klimagraph--------------------------------------------------------------------
+link <- selectDWD("Goettingen", res="monthly", var="kl", per="h")
+clim <- dataDWD(link)
+clim$month <- substr(clim$MESS_DATUM_BEGINN,5,6)
+temp <- tapply(clim$MO_TT, clim$month, mean, na.rm=TRUE)
+prec <- tapply(clim$MO_RR, clim$month, mean, na.rm=TRUE)
+berryFunctions::climateGraph(temp, prec, main="Goettingen")
+mtext("Source: Deutscher Wetterdienst", adj=-0.05, line=2.8, font=3)
+
+#Historische und kürzliche Daten zusammenführen-----------------------------------------
+links <- selectDWD("Potsdam", res="daily", var="kl", per="hr")
+klima <- dataDWD(links, hr=4)
+plot(TMK~MESS_DATUM, data=tail(klima,1500), type="l")
+links <- selectDWD("Celle", res="daily", var="kl", per="hr")
+klima <- dataDWD(links, hr=4, varnames=TRUE)
+plotDWD(tail(klima,800), "PM.Luftdruck")
