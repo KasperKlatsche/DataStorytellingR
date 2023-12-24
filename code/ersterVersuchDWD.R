@@ -59,7 +59,7 @@ file <- dataDWD(links[1], base=nwpbase, joinbf=TRUE, dir=tempdir(), read=FALSE)
 forecast <- readDWD(file)
 plotRadar(forecast, main=".grib2", project=FALSE)
 
-#Zeitreihe für Luftdruck----------------------------------------------------------------
+#10 Zeitreihe für Luftdruck----------------------------------------------------------------
 link <- selectDWD("Potsdam", res="daily", var="kl", per="recent")
 clim <- dataDWD(link, force=NA, varnames=TRUE)
 str(clim)
@@ -68,7 +68,7 @@ plot(clim[,c(2,14)], type="l", xaxt="n", las=1, main="Daily temp Potsdam")
 berryFunctions::monthAxis()   ;   abline(h=0)
 mtext("Source: Deutscher Wetterdienst", adj=-0.1, line=0.5, font=3)
 
-#Langzeit Klimagraph--------------------------------------------------------------------
+#11 Langzeit Klimagraph--------------------------------------------------------------------
 link <- selectDWD("Goettingen", res="monthly", var="kl", per="h")
 clim <- dataDWD(link)
 clim$month <- substr(clim$MESS_DATUM_BEGINN,5,6)
@@ -77,10 +77,38 @@ prec <- tapply(clim$MO_RR, clim$month, mean, na.rm=TRUE)
 berryFunctions::climateGraph(temp, prec, main="Goettingen")
 mtext("Source: Deutscher Wetterdienst", adj=-0.05, line=2.8, font=3)
 
-#Historische und kürzliche Daten zusammenführen-----------------------------------------
+#12 Historische und kürzliche Daten zusammenführen-----------------------------------------
 links <- selectDWD("Potsdam", res="daily", var="kl", per="hr")
 klima <- dataDWD(links, hr=4)
 plot(TMK~MESS_DATUM, data=tail(klima,1500), type="l")
 links <- selectDWD("Celle", res="daily", var="kl", per="hr")
 klima <- dataDWD(links, hr=4, varnames=TRUE)
 plotDWD(tail(klima,800), "PM.Luftdruck")
+
+#13 Vektorisierte Daten -------------------------------------------------------------------
+ids <-  c(3988, 5559, 2456, 3034, 1964, 4549, 2950, 5419, 2641, 3565)
+links <- selectDWD(id=ids, res="daily", var="weather_phenomena", per="h")
+phen <- dataDWD(links)
+names(phen) <- substr(names(phen), 54,58) # only IDs (not paths) as name
+str(phen, max.level=1)
+
+#14 Monatlicher Niederschlag Deutschland---------------------------------------------------
+data("gridIndex")
+index <- grep("monthly/precipitation", gridIndex, value=TRUE) # 1'709
+index <- grep('2014|2015|2016',index, value=TRUE) # n=36 (3*12)
+precip <- dataDWD(index[6:8], base=gridbase, joinbf=TRUE)
+plotRadar(precip[[1]], proj="seasonal", extent=NULL, main=names(precip)[1])
+
+#15 Zeitreihe durchschnittlicher Lufttemperatur--------------------------------------------
+index <- indexFTP(folder="annual/air_temperature_max", base=gridbase)
+index <- index[-(1:2)] # exclude description files
+index <- index[as.numeric(substr(index,62,65))>=2013] # after year 2013
+tempmax <- dataDWD(index, base=gridbase, joinbf=TRUE)
+names(tempmax) <- substr(names(tempmax), 62, 65)
+plotRadar(tempmax[[1]], proj="seasonal",extent="seasonal", main="Annual grid of monthly averaged daily maximum air temperature (2m) - 2013")
+tempmax_stack <- terra::rast(tempmax)
+tempmax_stack <- projectRasterDWD(tempmax_stack, proj="seasonal",extent="seasonal")
+terra::plot(tempmax_stack, range=range(terra::minmax(tempmax_stack)))
+#timeseries at given location
+loc <- data.frame(x=12.65295, y=53.06547) # Aussichtspunkt Kyritz-Ruppiner Heide
+round(unlist(terra::extract(tempmax_stack, loc)[-1]),1)
