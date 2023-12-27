@@ -1,4 +1,4 @@
-#Erstellung eines animierten Niederschlagsgraphen
+#Erstellung eines animierten Niederschlagsgraphen - funktioniert noch nicht
 library(rdwd)
 
 #parameter

@@ -7,3 +7,5 @@ Daten für dieses Projekt
 - Klimadaten
   - https://data.giss.nasa.gov/gistemp/
   - https://opendata.dwd.de/
+- Aktuelle Daten
+  - https://de.statista.com
