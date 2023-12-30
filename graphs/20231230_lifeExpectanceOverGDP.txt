@@ -1,0 +1,1 @@
+Money doesn't buy hapiness? But it likely increases your life expectancy. A true classic of animated graphs (data souce: R/gapminder, point size: population of the country, point colour: random)

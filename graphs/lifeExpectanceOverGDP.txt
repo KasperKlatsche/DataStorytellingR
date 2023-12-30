@@ -1,1 +1,0 @@
-Money doesn't by hapiness? But it likely increases the life expectancy. A classic of animated graphs (data souce: R/gapminder, point size: population size)
