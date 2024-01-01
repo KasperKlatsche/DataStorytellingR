@@ -22,5 +22,6 @@ auskombiniert <- auskombiniert[-which(auskombiniert$Amt==hatLeereWerte),]
 
 g <- ggplot(data = auskombiniert, aes(x=Amt, y=aufwandDiff)) +
   geom_bar(stat="identity") +
-  transition_time(Jahr) +
+  transition_time(jahr) +
   labs(title = "Year: {frame_time}")
+print(g)
