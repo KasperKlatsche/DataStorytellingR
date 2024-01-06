@@ -28,15 +28,15 @@ auskombiniert$aufwandDiff <- as.numeric(auskombiniert$aufwandDiff)
 auskombiniert$jahr <- as.numeric(auskombiniert$jahr)
 
 #jetzt die Bundesämter bennenen
-auskombiniert$Amt[which(auskombiniert$Amt == "BMAS")] <- "... für Arbeit und Soziales"
-auskombiniert$Amt[which(auskombiniert$Amt == "BMEL")] <- "... für Ernährung und Landwirtschaft"
+auskombiniert$Amt[which(auskombiniert$Amt == "BMAS")] <- "... für Arbeit & Soziales"
+auskombiniert$Amt[which(auskombiniert$Amt == "BMEL")] <- "... für Ernährung & Landwirtschaft"
 auskombiniert$Amt[which(auskombiniert$Amt == "BMF")] <- "... der Finanzen"
-auskombiniert$Amt[which(auskombiniert$Amt == "BMFSFJ")] <- "... für Familie, Senioren, Frauen und Jugend"
+auskombiniert$Amt[which(auskombiniert$Amt == "BMFSFJ")] <- "... für Familie, Senioren, Frauen & Jugend"
 auskombiniert$Amt[which(auskombiniert$Amt == "BMG")] <- "... für Gesundheit"
-auskombiniert$Amt[which(auskombiniert$Amt == "BMI")] <- "... des Inneren und für Heimat"
+auskombiniert$Amt[which(auskombiniert$Amt == "BMI")] <- "... des Inneren & für Heimat"
 auskombiniert$Amt[which(auskombiniert$Amt == "BMJ")] <- "... der Justiz"
-auskombiniert$Amt[which(auskombiniert$Amt == "BMUV")] <- "... für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz"
-auskombiniert$Amt[which(auskombiniert$Amt == "BMWK")] <- "... für Wirtschaft und Klimaschutz "
+auskombiniert$Amt[which(auskombiniert$Amt == "BMUV")] <- "... für Umwelt, Naturschutz, nukl. Sich. & Verbr."
+auskombiniert$Amt[which(auskombiniert$Amt == "BMWK")] <- "... für Wirtschaft & Klimaschutz "
 names(auskombiniert)[3] <- "Bundesministerium..."
 
 g <- ggplot(data = auskombiniert, aes(x=Bundesministerium..., y=aufwandDiff, fill=Bundesministerium...)) +
@@ -46,9 +46,9 @@ g <- ggplot(data = auskombiniert, aes(x=Bundesministerium..., y=aufwandDiff, fil
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
-        text = element_text(size=16)) +
-  ylab("Change in fulfillment effort since 2011 in mio €") +
+        text = element_text(size=40)) +
+  ylab("Change in fulfillment effort since 2011 [mio €]") +
   transition_time(as.integer(jahr)) +
   labs(title = "Year: {frame_time}")
-animate(g, height = 400, width =1000)
-anim_save("./graphs/20240106_bureaucracyOverTime.gif", g)
+animate(g, height = 900, width =1500)
+anim_save("./graphs/20240106_bureaucracyOverTime.gif")
