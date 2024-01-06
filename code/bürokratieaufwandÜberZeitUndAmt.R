@@ -45,31 +45,10 @@ g <- ggplot(data = auskombiniert, aes(x=Bundesministerium..., y=aufwandDiff, fil
   scale_color_viridis(option = "A", discrete = TRUE) + 
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
-        axis.ticks.x=element_blank()) +
-  ylab("Aggregated difference since 2012 [mio €]") +
+        axis.ticks.x=element_blank(),
+        text = element_text(size=16)) +
+  ylab("Aggregated difference since 2012 in mio €") +
   transition_time(as.integer(jahr)) +
   labs(title = "Year: {frame_time}")
-print(g)
-
-#Absolute zahlen als Summe der einzelnen Vorgaben
-data <- read.table("./data/20240103_Absoluter Erfüllungsaufwand_StatBundAmt.csv", skip = 3, nrow=16677, sep=";", encoding="ISO-8859-13", header=F)
-#der header hat einen character, der nicht header sein darf, deshalb so
-names(data) <- data[1,]
-data <- data[-c(1),-c(34)]
-data[,18] <- as.numeric(gsub(",",".",gsub("\\.","",data[,18])))/1000
-data[,23] <- as.numeric(gsub(",",".",gsub("\\.","",data[,23])))/1000
-data[,4] <- as.factor(data[,4])
-data <- data[,c(4,18,23)]
-names(data) <- c("Ressort", "absErfAuf", "diffErfAuf")
-print(aggregate(diffErfAuf ~ Ressort, data, sum))
-
-cbind(1:ncol(data),names(data))
-summary(as.factor(substr(data[,7],7,11)))
-#aggregieren über Ressorts
-d
-print(tapply(data[,23], data[,4], FUN=sum(na.rm=T)))
-
-#Es ist nur die Diff, nicht der totale Wert
-#Es fehlen Farben
-#Achsenbeschriftungen sind grauenhaft
-#Die Jahresangabe hat eine Nachkommazahl
+animate(g, height = 400, width =1000)
+anim_save("./graphs/bureaucracyOverTime.gif", g)
