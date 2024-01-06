@@ -4,7 +4,7 @@ library(ggplot2)
 library(gganimate)
 library(viridis)
 
-
+#Differenzen über die Jahre
 data <- read.table("./data/20231231_diff-jaehrl-erfuellungsaufw-wirt_StatBundAmt.csv", sep=";", header=T)
 
 aemter <- names(data)[2:ncol(data)]
@@ -30,7 +30,17 @@ g <- ggplot(data = auskombiniert, aes(x=Amt, y=aufwandDiff, fill=Amt)) +
   labs(title = "Year: {frame_time}")
 print(g)
 
- #Es ist nur die Diff, nicht der totale Wert
+#Absolute zahlen als Summe der einzelnen Vorgaben
+data <- read.table("./data/20240103_Absoluter Erfüllungsaufwand_StatBundAmt.csv", skip = 3, nrow=16677, sep=";", encoding="ISO-8859-13", header=F)
+#der header hat einen character, der nicht header sein darf, deshalb so
+names(data) <- data[1,]
+data <- data[-c(1),-c(34)]
+
+#aggregieren über Ressorts
+d
+print(tapply(data$))
+
+#Es ist nur die Diff, nicht der totale Wert
 #Es fehlen Farben
 #Achsenbeschriftungen sind grauenhaft
 #Die Jahresangabe hat eine Nachkommazahl
