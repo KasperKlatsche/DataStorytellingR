@@ -47,8 +47,8 @@ g <- ggplot(data = auskombiniert, aes(x=Bundesministerium..., y=aufwandDiff, fil
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
         text = element_text(size=16)) +
-  ylab("Aggregated difference since 2012 in mio €") +
+  ylab("Change in fulfillment effort since 2011 in mio €") +
   transition_time(as.integer(jahr)) +
   labs(title = "Year: {frame_time}")
 animate(g, height = 400, width =1000)
-anim_save("./graphs/bureaucracyOverTime.gif", g)
+anim_save("./graphs/20240106_bureaucracyOverTime.gif", g)

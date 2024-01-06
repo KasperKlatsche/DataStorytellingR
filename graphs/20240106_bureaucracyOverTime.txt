@@ -1,0 +1,2 @@
+Bureaucracy in Germany - how bad is it? Well, it varies considerably over time, but it tends to increase. The fulfillment effort shown in the graph is the cost and time required to comply with a legal requirement.
+(data source: OnDEA, y-axis: Aggregated difference of compliance costs since 2011 [mio €], color: Ressorts)
