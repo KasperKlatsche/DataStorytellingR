@@ -1,0 +1,2 @@
+Bureaucracy in Germany - how bad is it? Well, it varies considerably over time, but tends to increase. The fulfillment effort metric assesses cost and time required to comply with a legal requirement.
+(data source: OnDEA, values: Aggregated difference of fulfillment effort for business since 2011 in mio € by departments)
