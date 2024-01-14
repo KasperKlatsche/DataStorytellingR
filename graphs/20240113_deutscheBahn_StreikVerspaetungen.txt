@@ -1,0 +1,7 @@
+What is the relationship between Deutsche Bahn's punctuality and the train strike? Trains become more punctual:
+- Local transport -61% average delay and 72% cancellations
+- Regional transport -54% avrg. delay and 51% cancellations
+- Long distance transport -52% avrg. delay and 88% cancellations
+- Non-DB providers -54% avrg. delay and 21% cancellations
+So is the Deutsche Bahns delay problem a consequence of rail capacity bottlenecks?
+(data source: Deutsche Bahn Open Data, strike time frame: 12.1.24 07h-18h, values: density of delays in min, grouped by: mode of transport)
