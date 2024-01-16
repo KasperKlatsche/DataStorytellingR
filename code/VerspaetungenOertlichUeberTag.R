@@ -33,9 +33,8 @@ datenVorverarbeiten <- function(data) {
   return(data)
 }
 
-setwd("./data")
-samstag <- read.csv("20231118_DeutscheBahn_normalerSamstag.csv")
-data <- datenVorverarbeiten(samstag)
+data <- read.csv("./data/20231118_DeutscheBahn_normalerSamstag.csv")
+data <- datenVorverarbeiten(data)
 
 #---------------- Graphen zeichnen ---------------------------------------------
 
@@ -45,6 +44,6 @@ g <- ggplot(data, aes(y=breite,x=laenge,color=verspaetung)) +
   transition_time(geplAbfahrt) +
   ease_aes('linear')
 
-gif <- animate(g, duration = 50, width = 350, height = 500)
+gif <- animate(g, duration = 50, width = 800, height = 1200)
 
 anim_save("../graphs/verspaetungenOertlichUeberTag.gif", gif)
