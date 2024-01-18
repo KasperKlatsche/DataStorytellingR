@@ -33,18 +33,22 @@ datenVorverarbeiten <- function(data) {
   return(data)
 }
 
-setwd("./data")
-samstag <- read.csv("20231118_normalerSamstag.csv")
-samstag <- datenVorverarbeiten(samstag)
+data <- read.csv("./data/20231118_DeutscheBahn_normalerSamstag.csv")
+data <- datenVorverarbeiten(data)
 
 #---------------- Graphen zeichnen ---------------------------------------------
+#erst die Karte auspacken
+ger <- map_data("world", region = c("Germany"))
 
+#jetzt den Graphen zeichnen
 data$geplAbfahrt <- as.POSIXct(data$geplAbfahrt)
 g <- ggplot(data, aes(y=breite,x=laenge,color=verspaetung)) +
   geom_jitter() +
+  borders(database = "world", regions = c("Germany"), xlim = c(6.071, 14.979), ylim = c(47.41, 54.91)) +
+  theme_light() +
   transition_time(geplAbfahrt) +
   ease_aes('linear')
 
-gif <- animate(g, duration = 50, width = 350, height = 500)
+animate(g, duration = 50, width = 800, height = 1200)
 
-anim_save("../graphs/verspaetungenOertlichUeberTag.gif", g)
+anim_save("./graphs/verspaetungenOertlichUeberTag.gif")
