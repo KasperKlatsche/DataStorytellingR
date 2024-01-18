@@ -33,14 +33,11 @@ datenVorverarbeiten <- function(data) {
   return(data)
 }
 
-data <- read.csv("./data/20231118_DeutscheBahn_normalerSamstag.csv")
+data <- read.csv("./data/20240117_DeutscheBahn_SchneeDonnerstag_gekuerzt.csv")
 data <- datenVorverarbeiten(data)
 
 #---------------- Graphen zeichnen ---------------------------------------------
-#erst die Karte auspacken
-ger <- map_data("world", region = c("Germany"))
 
-#jetzt den Graphen zeichnen
 data$geplAbfahrt <- as.POSIXct(data$geplAbfahrt)
 g <- ggplot(data, aes(y=breite,x=laenge,color=verspaetung)) +
   geom_jitter() +

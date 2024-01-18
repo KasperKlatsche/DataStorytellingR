@@ -1,5 +1,7 @@
 #dieses Script soll einen Niederschlagsgraphen in GGPlot erstellen auf Basis von DWD Niederschlagsdaten
 
+library(RCurl)
+
 #parameter zu den daten
 url <- "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/precipitation/historical/"
 dir <- "./data/DWDtemporary/"
