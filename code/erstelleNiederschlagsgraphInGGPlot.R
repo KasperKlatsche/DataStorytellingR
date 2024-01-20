@@ -9,7 +9,7 @@ fileStart <- "10minutenwerte_nieder_"
 fileEnde <- "_hist.zip"
 
 #parameter zum load
-datum <- "20220117"
+datum <- "20220117" 
 
 #stationen laden
 stat <- read.table("./data/DWDtemporary/Beschreibung_Stationen.txt", sep="#", header=T) #den sep gibt es nicht, da der eigentliche sep nicht funktioniert

@@ -29,6 +29,9 @@ datenVorverarbeiten <- function(data) {
   data$nachPlan[data$verspaetung > 5] <- "delayed"
   data$nachPlan[data$ausfall == "ausfall"] <- "cancelled"
   data$nachPlan <- as.factor(data$nachPlan)
+  #Punktgröße
+  data$punktGroesse <- rep(7, nrow(data))
+  data$punktGroesse[data$nachPlan == "cancelled"] <- 10
   
   #alle Zuege, die im Zielbahnhof angekommen sind und keine Abfahrt haben - raus
   data <- data[-which(is.na(data$geplAbfahrt)),]
@@ -45,13 +48,14 @@ data <- datenVorverarbeiten(data)
 
 #---------------- Graphen zeichnen ---------------------------------------------
 
-data$geplAbfahrt <- as.POSIXct(data$geplAbfahrt)
-g <- ggplot(data, aes(y=breite,x=laenge)) +
-  geom_jitter(aes(colour=nachPlan, shape=nachPlan)) +
+data$zeit <- as.POSIXct(data$geplAbfahrt)
+g <- ggplot(data[data$nachPlan=="cancelled"|data$nachPlan=="delayed",], aes(y=breite,x=laenge)) +
+  geom_jitter(aes(colour=nachPlan, shape=nachPlan, size=2)) +
   borders(database = "world", regions = c("Germany"), xlim = c(6.071, 14.979), ylim = c(47.41, 54.91)) +
   theme_light() +
-  transition_time(geplAbfahrt) +
-  ease_aes('linear')
+  transition_time(zeit) +
+  ease_aes('linear') +
+  labs(title = "Time: {frame_time}")
 
 animate(g, duration = 50, width = 800, height = 1200)
 
