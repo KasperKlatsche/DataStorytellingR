@@ -92,12 +92,17 @@ names(wetter)[7:8] <- c("breite", "laenge")
 
 #---------------- Graphen zusammenfügen und speichern ---------------------------------------
 
+#Lengende vorbereiten
+colors <- c("delayed departure (>5min)" = "blue", "cancelled departure" = "red", "medium percipitation"="gray80", "heavy percipitation"="gray60")
+
+#Graph zeichnen
 g <- ggplot(data, aes(y=breite,x=laenge)) +
-  geom_point(data=wetter[wetter$regen=="medium",],colour="gray80", size=groesseWetter, show.legend = FALSE) +
-  geom_point(data=wetter[wetter$regen=="high",],colour="gray60", size=groesseWetter, show.legend = FALSE) +
+  scale_color_manual(values=colors) +
+  geom_point(data=wetter[wetter$regen=="medium",],aes(colour="medium percipitation"), size=groesseWetter, show.legend = FALSE) +
+  geom_point(data=wetter[wetter$regen=="high",],aes(colour="heavy percipitation"), size=groesseWetter, show.legend = FALSE) +
   borders(database = "world", regions = c("Germany"), xlim = c(6.071, 14.979), ylim = c(47.41, 54.91), size=2, colour="black", show.legend = FALSE)  +
-  geom_jitter(data = data[data$nachPlan=="delayed",],aes(colour="blue"), size=4, shape=15, show.legend = TRUE) +
-  geom_jitter(data = data[data$nachPlan=="cancelled",],aes(colour="red"), size=6, shape=15, show.legend = TRUE) +
+  geom_jitter(data = data[data$nachPlan=="delayed",],aes(colour="delayed departure (>5min)"), size=4, shape=15, show.legend = TRUE) +
+  geom_jitter(data = data[data$nachPlan=="cancelled",],aes(colour="cancelled departure"), size=6, shape=15, show.legend = TRUE) +
   theme(axis.line=element_blank(),
         axis.text.x=element_blank(),
         axis.text.y=element_blank(),
@@ -109,14 +114,14 @@ g <- ggplot(data, aes(y=breite,x=laenge)) +
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
         plot.background=element_blank(),
-        text = element_text(size=40),
+        text = element_text(size=30),
         legend.title = element_blank(),
-        legend.text  = element_text(colour="black", size = 40, face = "bold")) +
+        legend.text  = element_text(colour="black", size = 20, face = "bold")) +
   transition_time(zeit) +
   ease_aes('linear') +
-  labs(title = "Time: {frame_time}")
+  labs(title = "Train Delays/Cancellations in Severe Wheather {frame_time}")
 
 #animate(g, duration = 200, nframes = 100, fps = 40, width = 800, height = 1200)
-animate(g, nframes = 10, fps = 1, width = 800, height = 1200)
+animate(g, nframes = 10, fps = 1, width = 1100, height = 1200)
 
-anim_save("./graphs/verspaetungenOertlichUeberTag.gif")
+anim_save("./graphs/20240121_verspaetungenOertlichUeberTag.gif")
