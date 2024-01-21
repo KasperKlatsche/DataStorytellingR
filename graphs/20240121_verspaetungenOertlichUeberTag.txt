@@ -1,0 +1,7 @@
+🚂🌧️ Spotlight on Deutsche Bahn and Last Week's Severe Weather 🌧️🚂
+
+Last week's storm had ripple effects across various modes of transport. As expected, also Deutsche Bahn faced challenges, though the 5% train cancellations on Thursday appeared relatively modest.
+
+📊 The graph below displays train cancellations and delays (>5min), providing a visual correlation with weather conditions. Percipitation data (medium precipitation (0.07mm/10min), heavy precipitation (0.3mm/10min)) serves as contextual elements in the background.
+
+(data source: Deutsche Bahn Open Data and Deutscher Wetterdienst, values in colors: train delays and cancellations, values in gray: percipitation)
