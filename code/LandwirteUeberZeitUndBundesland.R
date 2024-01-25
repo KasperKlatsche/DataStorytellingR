@@ -5,6 +5,8 @@
 library(ggplot2)
 library(gganimate)
 library(stringr)
+library(viridis)
+library(scales)
 
 data <- read.table("./data/20240108_Landwirtschaftlich Bundeslaender_statBundAmt.csv", sep=";", header=T, fileEncoding="latin1")
 #erst die Zahlen in Zahlen wandeln
@@ -33,6 +35,6 @@ p <- ggplot(
   scale_color_viridis(option = "rainbow", discrete = TRUE) + 
   labs(x = "Flaeche", y = "Anz. Betriebe") +
   scale_x_log10(labels = label_comma()) +
-  transition_time(as.Integer(Jahr)) +
+  transition_time(as.integer(Jahr)) +
   labs(title = "Year: {frame_time}")
 print(p)
