@@ -9,6 +9,16 @@ header <- c("Jahr", "Branche", "Herkunft", "Geschlecht",unlist(data[3,5:ncol(dat
 data <- data[4:nrow(data),]
 names(data) <- header
 
+#uebersetzen
+data$Branche[data$Branche=="Freie Berufe"] <- "Liberal Professions"
+data$Branche[data$Branche=="Handwerk"] <- "Craft"
+data$Branche[data$Branche=="Hauswirtschaft"] <- "Home Economics"
+data$Branche[data$Branche=="Industrie und Handel"] <- "Industry and Trade"
+data$Branche[data$Branche=="Landwirtschaft"] <- "Agriculture"
+data$Branche[data$Branche=="Öffentlicher Dienst"] <- "Public Service"
+data$Geschlecht[data$Geschlecht=="männlich"] <- "male"
+data$Geschlecht[data$Geschlecht=="weiblich"] <- "female"
+
 #die felder formatieren
 data$Jahr <- as.integer(data$Jahr)
 for(i in 2:4) {
@@ -76,9 +86,14 @@ g4 <- ggplot(data[which(data$Branche!="Insgesamt" & data$Herkunft=="Insgesamt" &
         text = element_text(size=30),
         legend.title = element_text(colour="black", size = 30, face = "bold"),
         legend.text  = element_text(colour="black", size = 30)) +
+  guides(fill=guide_legend(title="Gender")) +
+  xlab("Sector") +
+  ylab("Number of contracts") +
   transition_time(as.integer(Jahr)) +
-  labs(title = "Ausbildungsverträge nach Branche und Geschlecht in {frame_time}")
+  labs(title = "Apprenticeship contracts by sector and gender in {frame_time}")
 #dieser Graph scheint interessante Aussagen zu beinhalten - nehmen wir
 animate(g4, width = 1100, height = 1200)
-anim_save("./graphs/20240126_AusbildungsvertraegeBrancheGeschlecht.gif")
+anim_save("./graphs/AusbildungsvertraegeBrancheGeschlecht.gif")
 
+
+#------------------ jetzt nochmal Zahlen zusammentragen für den Beitrag ------------------------------
