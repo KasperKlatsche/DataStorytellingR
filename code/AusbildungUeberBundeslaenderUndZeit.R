@@ -97,3 +97,8 @@ anim_save("./graphs/AusbildungsvertraegeBrancheGeschlecht.gif")
 
 
 #------------------ jetzt nochmal Zahlen zusammentragen für den Beitrag ------------------------------
+
+#veränderung von geschlecht über Zeit
+data <- aggreg
+gesch <- data[which(((data$Jahr==2008)|(data$Jahr==2022)) & data$Branche=="Insgesamt" & data$Herkunft=="Insgesamt"),]
+gesch <- data.frame(matrix(gesch$Anzahl, nrow=3, ncol=2))
