@@ -16,3 +16,5 @@ for(i in jahre) {
   rad <- readDWD(file, exdir=tempdir(), selection=1:3) # with toraster=TRUE
   bild <- plotRadar(rad$dat, main=paste(i,".binary SF"), layer=1)
 }
+
+#erstmal gestoppt. wir haben ja jetzt den animierten Niederschlagsgraphen
