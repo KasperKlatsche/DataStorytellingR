@@ -88,7 +88,7 @@ g4 <- ggplot(data[which(data$Branche!="Insgesamt" & data$Herkunft=="Insgesamt" &
         legend.text  = element_text(colour="black", size = 30)) +
   guides(fill=guide_legend(title="Gender")) +
   xlab("Sector") +
-  ylab("Number of contracts") +
+  ylab("Number of contracts [*thousand]") +
   transition_time(as.integer(Jahr)) +
   labs(title = "Apprenticeship contracts by sector and gender in {frame_time}")
 #dieser Graph scheint interessante Aussagen zu beinhalten - nehmen wir
@@ -115,4 +115,5 @@ branch <- data.frame(matrix(branch$Anzahl, nrow=nrow(branch)/2, ncol=2))
 names(branch) <- c("2008","2022")
 row.names(branch) <- rNames
 branch$reduktion <- (branch$`2008`-branch$`2022`)/branch$`2008`
+branch$reduktionAbsolut <- branch$`2008`-branch$`2022`
 print(branch)
