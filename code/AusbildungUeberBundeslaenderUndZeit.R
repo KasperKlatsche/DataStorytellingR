@@ -102,3 +102,17 @@ anim_save("./graphs/AusbildungsvertraegeBrancheGeschlecht.gif")
 data <- aggreg
 gesch <- data[which(((data$Jahr==2008)|(data$Jahr==2022)) & data$Branche=="Insgesamt" & data$Herkunft=="Insgesamt"),]
 gesch <- data.frame(matrix(gesch$Anzahl, nrow=3, ncol=2))
+names(gesch) <- c("2008","2022")
+row.names(gesch) <- c("male","female","insgesamt")
+gesch$reduktion <- (gesch$`2008`-gesch$`2022`)/gesch$`2008`
+print(gesch)
+
+#veränderung von Branche über Zeit
+data <- aggreg
+branch <- data[which(((data$Jahr==2008)|(data$Jahr==2022)) & data$Geschlecht=="Insgesamt" & data$Herkunft=="Insgesamt"),]
+rNames <- branch$Branche[1:(nrow(branch)/2)]
+branch <- data.frame(matrix(branch$Anzahl, nrow=nrow(branch)/2, ncol=2))
+names(branch) <- c("2008","2022")
+row.names(branch) <- rNames
+branch$reduktion <- (branch$`2008`-branch$`2022`)/branch$`2008`
+print(branch)
