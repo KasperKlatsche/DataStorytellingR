@@ -2,4 +2,4 @@
 
 The #GenderGap is notable, with female apprentices experiencing a more drastic decrease (-32%) compared to their male counterparts (-15%). How can we reverse this trend and make apprenticeships appealing again? #FutureOfWork
 
-(data source: Statistisches Bundesamt, values: Number of apprenticeship contracts, grouped by: sector and gender)
+(data source: Statistisches Bundesamt, values: Number of apprenticeship contracts, unit: thousand contracts, grouped by: sector and gender)
