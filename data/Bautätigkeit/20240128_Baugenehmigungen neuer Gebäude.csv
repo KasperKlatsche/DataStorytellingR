@@ -1,0 +1,539 @@
+GENESIS-Tabelle: 31111-0008
+Baugenehmigungen neuer Gebäude: Deutschland, Jahre,;;;;;;;;;;;;;;;;;;;
+Gebäudeart, Energieverwendung, Energieart;;;;;;;;;;;;;;;;;;;
+Statistik der Baugenehmigungen;;;;;;;;;;;;;;;;;;;
+Deutschland;;;;;;;;;;;;;;;;;;;
+Neue Gebäude (Anzahl);;;;;;;;;;;;;;;;;;;
+;;;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart;Gebäudeart
+;;;Wohngebäude;Wohngebäude mit 1 Wohnung;Wohngebäude mit 2 Wohnungen;Wohngebäude mit 3 oder mehr Wohnungen;Wohnheime;Wohngebäude mit Eigentumswohnungen;Nichtwohngebäude;Anstaltsgebäude;Büro- und Verwaltungsgebäude;Landwirtschaftliche Betriebsgebäude;Nichtlandwirtschaftliche Betriebsgebäude;Fabrik- und Werkstattgebäude;Handelsgebäude;Warenlagergebäude;Hotels und Gaststätten;Sonstige Nichtwohngebäude;Ausgewählte Infrastrukturgebäude
+2012;Zur Heizung verwendete primäre Energie;Öl;1193;923;150;118;2;38;571;15;69;36;363;170;.;.;24;88;103
+2012;Zur Heizung verwendete primäre Energie;Gas;54300;43795;4411;5982;112;3586;7006;194;880;349;4366;1624;.;.;272;1217;1491
+2012;Zur Heizung verwendete primäre Energie;Strom;1049;929;78;41;1;23;576;8;82;20;355;138;.;.;15;111;150
+2012;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;8333;5680;367;2222;64;1484;1670;107;315;41;638;217;.;.;74;569;689
+2012;Zur Heizung verwendete primäre Energie;Geothermie;10031;8337;917;772;5;432;547;3;167;14;244;96;.;.;13;119;125
+2012;Zur Heizung verwendete primäre Energie;Umweltthermie;26129;22810;2209;1105;5;762;1151;14;239;22;638;247;.;.;18;238;254
+2012;Zur Heizung verwendete primäre Energie;Solarthermie;641;522;67;51;1;20;52;1;8;2;27;7;.;.;3;14;12
+2012;Zur Heizung verwendete primäre Energie;Holz;6312;4817;698;781;16;563;1058;37;94;134;645;285;.;.;44;148;193
+2012;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;252;152;26;73;1;48;151;1;17;33;91;57;.;.;3;9;52
+2012;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;361;274;42;43;2;30;58;1;9;5;36;19;.;.;2;7;11
+2012;Zur Heizung verwendete primäre Energie;Sonstige Energie;287;241;19;26;1;18;155;3;25;11;99;43;.;.;1;17;25
+2012;Zur Heizung verwendete primäre Energie;Keine Energie;240;213;18;9;-;15;17369;4;9;7670;9268;891;.;.;6;418;685
+2012;Zur Heizung verwendete sekundäre Energie;Öl;36;22;7;7;-;4;30;-;2;6;20;12;.;.;1;2;4
+2012;Zur Heizung verwendete sekundäre Energie;Gas;769;536;52;178;3;115;237;8;32;17;135;52;.;.;4;45;57
+2012;Zur Heizung verwendete sekundäre Energie;Strom;5338;4768;328;239;3;127;475;9;97;17;262;83;.;.;13;90;101
+2012;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;101;80;8;12;1;16;20;-;1;3;9;5;.;.;-;7;8
+2012;Zur Heizung verwendete sekundäre Energie;Geothermie;294;216;38;38;2;33;56;3;9;-;34;11;.;.;3;10;13
+2012;Zur Heizung verwendete sekundäre Energie;Umweltthermie;752;601;63;87;1;53;174;5;29;-;100;43;.;.;8;40;47
+2012;Zur Heizung verwendete sekundäre Energie;Solarthermie;20867;16430;1933;2465;39;1482;1143;39;198;30;617;247;.;.;59;259;305
+2012;Zur Heizung verwendete sekundäre Energie;Holz;18508;16209;1765;527;7;345;485;12;47;49;285;117;.;.;21;92;105
+2012;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;99;84;11;4;-;3;41;-;2;9;27;17;.;.;1;3;13
+2012;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;88;75;8;5;-;2;15;-;-;2;11;1;.;.;1;2;3
+2012;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;561;432;29;95;5;66;349;16;56;20;221;117;.;.;12;36;62
+2012;Zur Heizung verwendete sekundäre Energie;Keine Energie;61715;49240;4760;7566;149;4773;27339;296;1441;8184;15049;3089;.;.;352;2369;3072
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Öl;1052;805;134;111;2;36;451;15;63;23;278;132;.;.;21;72;83
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Gas;45674;36431;3758;5380;105;3205;5754;180;761;234;3531;1344;.;.;261;1048;1296
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Strom;1706;1407;146;148;5;70;1872;24;325;68;1054;340;.;.;34;401;440
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;8223;5609;361;2192;61;1472;1434;105;276;23;538;174;.;.;75;492;605
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;9695;8098;864;728;5;421;453;3;127;14;207;82;.;.;12;102;108
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;25089;21947;2100;1037;5;713;922;10;191;18;514;218;.;.;15;189;200
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;11207;9523;940;737;7;460;395;11;52;16;218;75;.;.;12;98;108
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Holz;5609;4234;613;746;16;547;758;34;72;94;456;209;.;.;39;102;144
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;247;152;25;69;1;47;115;2;16;29;60;30;.;.;3;8;25
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;340;255;40;43;2;30;52;1;9;5;33;14;.;.;3;4;4
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;279;227;20;31;1;17;130;2;15;20;76;39;.;.;-;17;22
+2012;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;7;5;1;1;-;1;18028;1;7;7793;9805;1137;.;.;-;422;755
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;111;83;18;10;-;6;34;-;1;4;26;6;.;.;17;3;4
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;6065;5054;461;544;6;353;283;11;40;6;165;71;.;.;9;61;74
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;6186;5510;424;248;4;136;559;16;102;15;302;103;.;.;17;124;149
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;103;84;4;13;2;13;24;-;5;3;9;3;.;.;-;7;8
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;422;331;56;34;1;36;41;3;8;-;20;6;.;.;2;10;12
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1071;878;93;99;1;65;106;3;16;2;59;24;.;.;4;26;29
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;32602;26639;2793;3119;51;1864;1319;51;215;37;709;280;.;.;69;307;366
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;3430;2887;376;161;6;112;126;4;23;12;57;22;.;.;4;30;30
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;110;94;8;7;1;8;27;-;2;4;17;9;.;.;1;4;6
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;66;58;5;3;-;2;13;-;2;2;8;-;.;.;-;1;1
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;525;384;34;103;4;77;287;13;44;11;180;88;.;.;12;39;62
+2012;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;58437;46691;4730;6882;134;4347;27545;287;1456;8241;15218;3182;.;.;340;2343;3049
+2013;Zur Heizung verwendete primäre Energie;Öl;1086;830;158;98;-;35;511;13;56;31;332;147;.;.;20;79;100
+2013;Zur Heizung verwendete primäre Energie;Gas;56758;44947;4953;6749;109;3784;7056;225;871;310;4389;1662;.;.;291;1261;1566
+2013;Zur Heizung verwendete primäre Energie;Strom;1113;956;94;60;3;29;587;13;96;28;346;137;.;.;17;104;158
+2013;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;8955;5729;445;2739;42;1767;1765;140;344;46;685;228;.;.;117;550;699
+2013;Zur Heizung verwendete primäre Energie;Geothermie;9003;7311;896;788;8;420;532;8;154;12;232;101;.;.;20;126;135
+2013;Zur Heizung verwendete primäre Energie;Umweltthermie;27664;23705;2650;1297;12;805;1236;17;270;26;691;238;.;.;33;232;254
+2013;Zur Heizung verwendete primäre Energie;Solarthermie;711;539;81;90;1;37;67;-;11;6;41;17;.;.;1;9;6
+2013;Zur Heizung verwendete primäre Energie;Holz;6871;5020;827;1002;22;761;1060;25;83;154;642;292;.;.;34;156;187
+2013;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;278;168;34;73;3;39;122;4;2;24;77;39;.;.;5;15;34
+2013;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;403;268;59;74;2;42;65;2;6;11;35;18;.;.;3;11;17
+2013;Zur Heizung verwendete primäre Energie;Sonstige Energie;287;209;20;57;1;20;122;2;16;10;78;39;.;.;3;16;19
+2013;Zur Heizung verwendete primäre Energie;Keine Energie;162;148;10;4;-;2;15488;5;10;6590;8465;836;.;.;10;418;637
+2013;Zur Heizung verwendete sekundäre Energie;Öl;48;40;3;5;-;-;30;-;4;3;19;8;.;.;4;4;6
+2013;Zur Heizung verwendete sekundäre Energie;Gas;798;499;61;232;6;125;271;9;43;11;161;72;.;.;11;47;57
+2013;Zur Heizung verwendete sekundäre Energie;Strom;6277;5542;400;326;9;184;533;15;80;15;312;137;.;.;20;111;133
+2013;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;62;39;5;18;-;13;22;1;4;2;11;2;.;.;2;4;6
+2013;Zur Heizung verwendete sekundäre Energie;Geothermie;320;208;48;64;-;41;63;2;23;-;29;14;.;.;4;9;13
+2013;Zur Heizung verwendete sekundäre Energie;Umweltthermie;876;694;80;100;2;60;186;3;31;2;122;38;.;.;12;28;36
+2013;Zur Heizung verwendete sekundäre Energie;Solarthermie;20061;15243;1985;2808;25;1581;1144;50;199;30;629;251;.;.;51;236;285
+2013;Zur Heizung verwendete sekundäre Energie;Holz;19228;16601;1990;627;10;341;524;17;56;60;323;126;.;.;38;68;84
+2013;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;111;62;9;40;-;23;38;2;5;6;17;11;.;.;2;8;11
+2013;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;60;55;3;2;-;-;16;-;3;1;8;4;.;.;-;4;6
+2013;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;406;273;34;98;1;59;272;9;36;10;164;87;.;.;8;53;68
+2013;Zur Heizung verwendete sekundäre Energie;Keine Energie;65044;50574;5609;8711;150;5314;25512;346;1435;7108;14218;3004;.;.;402;2405;3107
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Öl;953;731;140;82;-;26;391;13;45;20;244;106;.;.;19;69;86
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Gas;46763;36551;4167;5943;102;3299;5710;208;733;220;3475;1327;.;.;269;1074;1324
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Strom;1771;1406;146;215;4;87;2166;37;374;68;1233;409;.;.;64;454;531
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;8874;5676;434;2722;42;1762;1450;128;281;34;548;181;.;.;105;459;591
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;8706;7111;865;723;7;398;405;7;109;9;184;77;.;.;16;96;104
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;26680;22939;2530;1199;12;754;953;14;210;22;539;193;.;.;22;168;186
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;12484;10404;1070;1002;8;575;434;15;77;17;234;87;.;.;20;91;99
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Holz;6149;4410;765;952;22;744;811;24;70;129;472;226;.;.;29;116;153
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;269;164;37;65;3;34;93;4;2;20;56;25;.;.;4;11;22
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;388;253;57;76;2;43;53;2;5;5;30;17;.;.;3;11;17
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;254;185;16;52;1;19;138;2;13;22;80;44;.;.;3;21;22
+2013;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;16007;-;-;6682;8918;1062;.;.;-;407;677
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;121;88;16;17;-;6;28;-;6;2;17;6;.;.;2;3;5
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;8767;7056;686;1013;12;575;370;21;50;10;207;94;.;.;14;82;103
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;7165;6303;496;359;7;201;702;18;124;27;378;172;.;.;24;155;180
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;590;213;56;318;3;118;57;4;14;-;23;5;.;.;7;16;20
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;524;378;64;82;-;47;49;2;14;-;19;6;.;.;3;14;18
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1493;1219;154;118;2;81;138;3;16;4;89;33;.;.;8;26;28
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;34666;27553;3316;3757;40;2084;1530;74;241;38;845;332;.;.;75;332;405
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;2578;2142;282;151;3;62;97;3;10;11;61;27;.;.;5;12;17
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;102;66;5;31;-;20;22;2;2;2;10;4;.;.;2;6;7
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;49;45;2;2;-;-;9;-;2;1;5;2;.;.;-;1;2
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;464;300;35;128;1;78;256;15;30;13;134;68;.;.;10;64;86
+2013;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;56772;44467;5115;7055;135;4469;25353;312;1410;7140;14225;3005;.;.;404;2266;2941
+2014;Zur Heizung verwendete primäre Energie;Öl;1010;756;162;91;1;29;449;12;41;22;313;139;.;.;16;61;79
+2014;Zur Heizung verwendete primäre Energie;Gas;59425;46900;4942;7444;139;4201;6543;236;884;205;4175;1609;.;.;219;1043;1380
+2014;Zur Heizung verwendete primäre Energie;Strom;1007;874;82;48;3;23;584;23;72;25;343;123;.;.;18;121;166
+2014;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;8632;5365;383;2816;68;1776;1617;99;309;27;698;265;.;.;94;484;582
+2014;Zur Heizung verwendete primäre Energie;Geothermie;7444;6073;682;681;8;384;408;3;122;11;197;72;.;.;16;75;80
+2014;Zur Heizung verwendete primäre Energie;Umweltthermie;26353;22575;2463;1302;13;762;1264;62;265;25;708;246;.;.;38;204;283
+2014;Zur Heizung verwendete primäre Energie;Solarthermie;567;434;68;65;-;30;59;1;13;4;31;12;.;.;-;10;8
+2014;Zur Heizung verwendete primäre Energie;Holz;6108;4457;696;939;16;605;948;33;76;139;593;249;.;.;29;107;145
+2014;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;261;175;19;62;5;45;88;1;6;21;50;26;.;.;-;10;23
+2014;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;461;323;45;93;-;66;80;4;7;11;48;20;.;.;3;10;19
+2014;Zur Heizung verwendete primäre Energie;Sonstige Energie;244;175;21;47;1;51;173;6;15;10;127;56;.;.;2;15;20
+2014;Zur Heizung verwendete primäre Energie;Keine Energie;98;84;10;3;1;-;14552;2;7;5877;8235;798;.;.;8;431;618
+2014;Zur Heizung verwendete sekundäre Energie;Öl;37;23;9;5;-;1;31;1;4;3;18;9;.;.;3;5;6
+2014;Zur Heizung verwendete sekundäre Energie;Gas;878;494;69;308;7;214;268;15;50;9;148;70;.;.;8;46;60
+2014;Zur Heizung verwendete sekundäre Energie;Strom;6344;5562;369;402;11;219;553;25;93;18;326;110;.;.;16;91;126
+2014;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;136;107;2;26;1;14;26;2;6;-;9;5;.;.;-;9;14
+2014;Zur Heizung verwendete sekundäre Energie;Geothermie;250;161;29;59;1;27;55;-;19;-;22;8;.;.;1;14;15
+2014;Zur Heizung verwendete sekundäre Energie;Umweltthermie;909;686;85;136;2;73;179;3;33;1;107;38;.;.;8;35;40
+2014;Zur Heizung verwendete sekundäre Energie;Solarthermie;19140;14385;1906;2812;37;1623;1017;33;183;28;592;225;.;.;45;181;214
+2014;Zur Heizung verwendete sekundäre Energie;Holz;18362;15834;1913;609;6;336;513;22;60;61;309;130;.;.;15;61;90
+2014;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;90;43;4;39;4;4;38;1;2;4;24;12;.;.;3;7;12
+2014;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;55;35;7;13;-;3;19;1;2;-;12;9;.;.;-;4;5
+2014;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;567;390;31;143;3;85;266;11;36;6;167;67;.;.;13;46;62
+2014;Zur Heizung verwendete sekundäre Energie;Keine Energie;64842;50471;5149;9039;183;5373;23800;368;1329;6247;13784;2932;.;.;331;2072;2759
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Öl;904;672;149;81;2;27;358;12;35;14;247;106;.;.;16;50;70
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Gas;49248;38366;4168;6592;122;3718;5205;209;709;152;3253;1252;.;.;215;882;1136
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Strom;1700;1344;140;206;10;79;2174;40;344;76;1295;448;.;.;42;419;504
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;8495;5268;377;2782;68;1760;1332;95;254;22;560;213;.;.;85;401;491
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;7212;5905;662;639;6;368;326;2;95;11;164;54;.;.;12;54;59
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;25528;21930;2362;1223;13;719;994;66;210;20;543;205;.;.;30;155;236
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;11979;9997;1003;965;14;548;398;20;79;20;220;79;.;.;9;59;78
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Holz;5561;4006;630;911;14;595;683;27;66;100;422;193;.;.;26;68;109
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;263;176;20;62;5;46;77;1;6;20;40;23;.;.;-;10;21
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;422;294;40;88;-;63;69;4;5;9;42;18;.;.;2;9;18
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;298;233;22;42;1;49;151;6;14;17;97;45;.;.;6;17;21
+2014;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14998;-;-;5916;8635;979;.;.;-;447;660
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;101;74;18;9;-;-;28;1;2;3;18;8;.;.;2;4;4
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;8366;6833;642;873;18;550;353;30;71;8;192;76;.;.;9;52;89
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;7487;6517;482;478;10;261;713;24;112;25;408;142;.;.;29;144;181
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;161;126;4;31;-;22;24;2;6;-;9;2;.;.;2;7;9
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;417;308;43;65;1;35;37;-;10;-;16;4;.;.;3;11;12
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1309;1029;144;135;1;73;129;1;21;2;77;25;.;.;7;28;29
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;34723;27576;3169;3923;55;2155;1450;70;274;35;822;319;.;.;66;249;323
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;2195;1842;251;101;1;44;100;7;11;9;58;33;.;.;1;15;22
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;87;44;4;35;4;4;23;1;1;3;13;8;.;.;-;5;7
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;56;37;6;13;-;2;15;1;2;2;8;5;.;.;-;2;4
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;612;408;31;170;3;108;253;12;33;7;151;63;.;.;15;50;67
+2014;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;56096;43397;4779;7758;162;4718;23640;333;1274;6283;13746;2930;.;.;309;2004;2656
+2015;Zur Heizung verwendete primäre Energie;Öl;1126;867;169;82;8;39;372;7;45;17;257;111;32;71;18;46;54
+2015;Zur Heizung verwendete primäre Energie;Gas;64356;50899;5279;7966;212;4382;6686;295;899;156;4283;1621;833;1237;241;1053;1415
+2015;Zur Heizung verwendete primäre Energie;Strom;998;841;77;62;18;24;664;17;97;20;407;155;56;131;29;123;180
+2015;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;8889;5413;497;2903;76;1587;1601;109;322;40;662;229;108;145;108;468;590
+2015;Zur Heizung verwendete primäre Energie;Geothermie;7484;6081;708;688;7;401;357;8;98;8;170;71;26;43;14;73;81
+2015;Zur Heizung verwendete primäre Energie;Umweltthermie;30253;25961;2663;1599;30;1027;1288;83;293;20;688;246;209;154;39;204;298
+2015;Zur Heizung verwendete primäre Energie;Solarthermie;706;542;79;85;-;39;62;-;6;2;44;15;9;14;5;10;10
+2015;Zur Heizung verwendete primäre Energie;Holz;5831;4345;586;887;13;566;843;23;72;110;521;226;41;137;38;117;149
+2015;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;322;206;25;84;7;43;81;3;15;7;48;24;3;16;-;8;20
+2015;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;403;272;43;84;4;78;40;2;7;6;21;7;2;9;1;4;9
+2015;Zur Heizung verwendete primäre Energie;Sonstige Energie;270;176;16;78;-;27;128;4;12;6;97;26;40;25;4;9;13
+2015;Zur Heizung verwendete primäre Energie;Keine Energie;133;115;9;9;-;10;14411;9;4;5392;8520;790;75;4007;6;486;565
+2015;Zur Heizung verwendete sekundäre Energie;Öl;43;34;6;3;-;2;23;1;3;1;16;8;1;5;1;2;4
+2015;Zur Heizung verwendete sekundäre Energie;Gas;1066;627;95;338;6;201;273;14;62;6;137;52;38;27;9;54;72
+2015;Zur Heizung verwendete sekundäre Energie;Strom;6818;5919;408;478;13;234;620;58;102;18;363;109;95;108;26;79;139
+2015;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;139;88;7;44;-;25;26;-;2;-;12;5;1;4;1;12;11
+2015;Zur Heizung verwendete sekundäre Energie;Geothermie;350;236;37;75;2;26;49;4;13;1;21;10;1;6;3;10;15
+2015;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1070;807;81;179;3;87;182;3;32;-;119;41;37;29;10;28;33
+2015;Zur Heizung verwendete sekundäre Energie;Solarthermie;20177;15056;1900;3167;54;1783;1062;39;168;27;626;233;125;162;53;202;246
+2015;Zur Heizung verwendete sekundäre Energie;Holz;19353;16752;1929;666;6;417;496;23;68;37;290;120;32;62;35;78;102
+2015;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;96;62;6;28;-;9;27;1;4;7;9;3;-;4;1;6;7
+2015;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;77;61;7;9;-;7;11;-;1;2;6;5;-;1;-;2;2
+2015;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;563;370;31;151;11;96;271;16;35;5;174;67;42;33;14;41;61
+2015;Zur Heizung verwendete sekundäre Energie;Keine Energie;71019;55706;5644;9389;280;5336;23493;401;1380;5680;13945;2868;1062;5548;350;2087;2692
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Öl;978;760;141;75;2;35;285;7;36;13;193;86;30;42;16;36;42
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Gas;52986;41317;4390;7085;194;3879;5394;273;750;112;3381;1292;643;947;225;878;1194
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Strom;1922;1450;164;284;24;94;2238;37;391;77;1307;421;303;409;58;426;497
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;8804;5370;488;2871;75;1580;1301;102;244;30;540;187;94;97;102;385;500
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;7254;5925;684;639;6;388;292;7;78;8;143;63;18;36;13;56;62
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;29422;25334;2582;1476;30;977;1041;81;230;16;561;207;161;128;33;153;241
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;13051;10978;1079;973;21;548;369;21;54;11;216;76;41;65;19;67;88
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Holz;5315;3888;541;873;13;562;610;20;57;83;370;164;32;95;33;80;114
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;321;206;28;80;7;44;64;4;11;11;33;17;3;9;-;5;15
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;379;256;39;81;3;77;35;2;6;5;17;5;2;7;1;5;9
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;339;234;15;90;-;39;121;6;13;13;74;21;27;21;3;15;19
+2015;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14783;-;-;5405;8883;982;80;4133;-;495;603
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;109;85;18;5;1;3;19;1;1;1;14;6;2;4;1;2;4
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;9675;7987;773;903;12;546;347;27;64;5;180;57;49;42;13;71;103
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;8483;7354;519;587;23;285;824;63;168;27;432;150;121;102;26;134;205
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;153;93;9;51;-;31;22;2;1;-;9;4;-;3;1;10;11
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;506;354;65;84;3;25;54;6;13;-;26;13;3;5;3;9;16
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1453;1157;129;164;3;93;129;4;27;1;76;25;22;18;8;21;29
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;37397;29561;3389;4371;76;2403;1473;62;244;37;849;300;163;231;70;281;350
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;2127;1804;228;94;1;58;97;4;16;7;60;26;5;16;9;10;14
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;94;60;3;31;-;9;20;1;1;4;10;4;-;4;1;4;6
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;60;43;9;8;-;5;5;-;-;1;3;2;-;1;-;1;2
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;546;357;34;143;12;88;252;17;38;6;146;62;26;30;11;45;71
+2015;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;60168;46863;4975;8086;244;4677;23291;373;1297;5695;13913;2872;1043;5533;360;2013;2573
+2016;Zur Heizung verwendete primäre Energie;Öl;1169;871;164;117;17;33;429;11;36;27;293;143;47;70;9;62;79
+2016;Zur Heizung verwendete primäre Energie;Gas;58733;44775;5032;8435;491;4208;8056;1181;955;181;4656;1714;819;1301;432;1083;2389
+2016;Zur Heizung verwendete primäre Energie;Strom;1178;926;105;86;61;38;688;8;71;29;444;163;62;117;50;136;185
+2016;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;9684;5292;538;3684;170;1873;1849;125;327;50;822;293;154;185;115;525;664
+2016;Zur Heizung verwendete primäre Energie;Geothermie;8973;7043;961;961;8;564;469;13;139;7;202;94;40;48;3;108;121
+2016;Zur Heizung verwendete primäre Energie;Umweltthermie;37745;31333;3792;2556;64;1525;1956;89;464;25;1063;363;314;256;49;315;423
+2016;Zur Heizung verwendete primäre Energie;Solarthermie;762;554;103;102;3;41;69;3;12;5;42;12;14;9;3;7;11
+2016;Zur Heizung verwendete primäre Energie;Holz;5720;3907;631;1154;28;710;869;26;93;105;536;212;50;159;44;109;141
+2016;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;358;239;43;64;12;78;82;2;9;16;46;23;4;10;5;9;22
+2016;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;342;213;36;93;-;46;48;3;8;6;23;5;2;7;2;8;12
+2016;Zur Heizung verwendete primäre Energie;Sonstige Energie;355;242;12;100;1;42;167;4;18;11;119;40;41;20;8;15;23
+2016;Zur Heizung verwendete primäre Energie;Keine Energie;138;114;12;12;-;2;14419;4;5;4881;8951;764;118;4106;4;578;498
+2016;Zur Heizung verwendete sekundäre Energie;Öl;43;39;1;3;-;1;20;2;4;2;9;4;2;3;-;3;7
+2016;Zur Heizung verwendete sekundäre Energie;Gas;1399;866;89;432;12;208;330;14;64;6;173;75;39;36;12;73;92
+2016;Zur Heizung verwendete sekundäre Energie;Strom;8328;6939;652;716;21;329;739;52;120;20;418;138;115;106;19;129;193
+2016;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;207;145;7;54;1;38;26;1;2;-;22;8;4;2;3;1;4
+2016;Zur Heizung verwendete sekundäre Energie;Geothermie;276;202;29;43;2;14;31;4;7;-;14;4;3;3;1;6;12
+2016;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1490;1115;146;224;5;114;223;6;38;4;139;45;44;33;7;36;45
+2016;Zur Heizung verwendete sekundäre Energie;Solarthermie;20751;15051;2100;3500;100;1816;1260;54;199;34;725;276;126;199;75;248;315
+2016;Zur Heizung verwendete sekundäre Energie;Holz;18453;15653;1964;819;17;541;1068;505;48;43;418;124;36;81;143;54;565
+2016;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;108;46;27;29;6;42;27;2;2;5;16;7;2;3;1;2;7
+2016;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;60;37;6;16;1;5;8;-;-;-;4;1;-;1;-;4;3
+2016;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;541;315;22;189;15;109;294;14;30;11;192;81;45;38;14;47;68
+2016;Zur Heizung verwendete sekundäre Energie;Keine Energie;73501;55101;6386;11339;675;5943;25075;815;1623;5218;15067;3063;1249;5783;449;2352;3257
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Öl;1040;775;146;102;17;28;336;10;35;20;215;107;37;48;5;56;72
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Gas;48166;36073;4144;7500;449;3759;6594;1162;780;146;3596;1369;631;978;295;910;2160
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Strom;2069;1393;180;411;85;139;2618;51;391;73;1612;480;363;424;212;491;600
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;9547;5241;524;3615;167;1865;1545;125;274;34;682;235;133;139;110;430;566
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;8741;6923;903;907;8;514;364;9;104;6;162;76;34;35;3;83;90
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;36831;30703;3693;2374;61;1452;1543;71;377;25;846;308;235;199;35;224;308
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;12411;10126;1149;1106;30;534;409;11;65;14;246;92;47;64;23;73;87
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Holz;5278;3554;590;1110;24;686;632;22;73;80;382;163;39;121;28;75;107
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;379;241;64;62;12;98;74;1;8;15;43;20;4;9;5;7;17
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;321;203;27;91;-;46;32;3;6;4;12;4;1;3;2;7;8
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;374;277;9;86;2;39;122;4;20;11;74;29;21;15;6;13;19
+2016;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14832;-;4;4915;9327;943;120;4253;-;586;534
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;108;87;11;10;-;2;21;2;1;1;13;5;3;4;-;4;7
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;9821;7951;777;1068;25;521;415;19;63;7;244;91;56;63;16;82;108
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;10766;9022;863;819;62;396;972;53;184;24;537;179;153;132;23;174;238
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;211;135;8;67;1;35;30;-;5;-;12;5;2;-;2;13;14
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;385;294;48;41;2;16;25;2;5;-;11;3;4;1;1;7;10
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1945;1474;205;262;4;137;172;7;25;5;103;27;32;25;9;32;40
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;35723;27522;3332;4728;141;2351;1659;93;274;37;931;348;157;255;103;324;432
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;2057;1654;250;146;7;106;79;1;8;12;45;19;7;10;8;13;13
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;82;42;8;30;2;21;21;3;1;2;12;5;1;4;-;3;9
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;45;21;8;15;1;5;8;-;1;-;4;-;-;2;-;3;3
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;541;290;28;210;13;110;265;16;31;8;166;82;31;30;11;44;66
+2016;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;63473;47017;5891;9968;597;5460;25434;1273;1539;5247;15119;3062;1219;5762;551;2256;3628
+2017;Zur Heizung verwendete primäre Energie;Öl;936;705;115;110;6;39;406;7;42;24;281;133;28;65;23;52;53
+2017;Zur Heizung verwendete primäre Energie;Gas;49823;37907;4391;7382;143;3750;6203;271;794;157;3915;1505;568;1280;251;1066;1402
+2017;Zur Heizung verwendete primäre Energie;Strom;1169;955;109;91;14;34;732;18;95;27;438;141;86;136;34;154;187
+2017;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;9153;4853;545;3617;138;1642;1879;119;393;42;769;270;111;152;134;556;684
+2017;Zur Heizung verwendete primäre Energie;Geothermie;9258;7357;937;955;9;474;473;18;133;9;204;78;42;52;13;109;128
+2017;Zur Heizung verwendete primäre Energie;Umweltthermie;41774;34351;4241;3143;39;1775;2177;97;466;31;1190;406;338;284;69;393;521
+2017;Zur Heizung verwendete primäre Energie;Solarthermie;691;546;67;78;-;34;67;3;9;2;43;12;9;11;4;10;10
+2017;Zur Heizung verwendete primäre Energie;Holz;5316;3478;605;1191;42;735;812;13;71;95;475;211;24;140;40;158;156
+2017;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;258;161;34;58;5;32;87;13;7;23;33;19;3;7;-;11;30
+2017;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;296;181;33;76;6;36;47;2;9;4;24;10;-;10;2;8;10
+2017;Zur Heizung verwendete primäre Energie;Sonstige Energie;260;170;15;69;6;20;137;5;14;7;100;28;50;17;1;11;18
+2017;Zur Heizung verwendete primäre Energie;Keine Energie;126;109;15;1;1;1;13932;11;2;4506;8961;757;104;3948;2;452;493
+2017;Zur Heizung verwendete sekundäre Energie;Öl;35;23;6;6;-;1;25;2;2;1;16;8;1;5;1;4;6
+2017;Zur Heizung verwendete sekundäre Energie;Gas;1382;770;93;505;14;267;385;13;81;6;186;68;41;43;18;99;115
+2017;Zur Heizung verwendete sekundäre Energie;Strom;11133;9328;898;888;19;425;863;51;153;11;486;166;131;104;26;162;220
+2017;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;47;31;3;13;-;11;12;1;1;-;4;2;-;1;-;6;8
+2017;Zur Heizung verwendete sekundäre Energie;Geothermie;281;182;27;72;-;30;32;-;9;-;13;1;3;6;2;10;10
+2017;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1224;906;108;206;4;92;253;10;41;3;146;43;49;34;11;53;61
+2017;Zur Heizung verwendete sekundäre Energie;Solarthermie;18119;12930;1928;3223;38;1704;1187;60;177;24;672;279;97;192;56;254;317
+2017;Zur Heizung verwendete sekundäre Energie;Holz;17179;14400;1935;830;14;481;509;14;51;65;293;125;28;80;33;86;87
+2017;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;56;30;4;21;1;6;26;3;1;5;10;6;1;3;-;7;11
+2017;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;61;45;5;11;-;3;5;-;-;-;5;3;-;-;1;-;2
+2017;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;383;185;22;169;7;82;223;7;25;6;142;51;36;18;15;43;52
+2017;Zur Heizung verwendete sekundäre Energie;Keine Energie;69160;51943;6078;10827;312;5470;23432;416;1494;4806;14460;2818;976;5616;410;2256;2803
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Öl;850;644;101;99;6;38;308;6;32;20;213;102;24;42;22;37;45
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Gas;40689;30334;3596;6620;139;3409;5096;252;675;122;3140;1201;444;1007;237;907;1188
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Strom;2051;1462;186;387;16;120;2427;69;391;62;1377;437;321;402;65;528;637
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;9041;4797;531;3580;133;1624;1573;114;307;34;659;217;98;120;131;459;578
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;9027;7234;913;871;9;445;378;18;101;10;177;66;40;44;11;72;91
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;40934;33782;4140;2974;38;1693;1750;66;382;29;963;347;255;232;60;310;393
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;10811;8892;992;918;9;429;351;23;50;11;189;69;35;57;15;78;87
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Holz;4873;3146;568;1117;42;726;620;9;65;85;354;165;20;104;29;107;119
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;271;163;35;68;5;34;76;12;6;23;26;14;2;5;1;9;22
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;285;177;29;73;6;35;41;2;8;4;18;10;-;6;1;9;12
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;228;142;16;64;6;19;108;6;16;10;65;28;19;13;1;11;18
+2017;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14224;-;2;4517;9252;914;105;4070;-;453;502
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;99;71;15;13;-;2;18;2;1;-;10;6;-;4;-;5;7
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;8669;6924;726;1001;18;493;420;24;74;10;206;82;42;48;21;106;126
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;12917;10839;1042;1014;22;465;1076;56;218;14;556;186;153;120;38;232;297
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;67;41;5;21;-;12;28;1;4;-;15;7;2;5;-;8;9
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;383;278;40;65;-;26;25;-;6;-;11;2;2;3;1;8;9
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1654;1248;134;268;4;132;183;8;35;1;97;22;37;21;13;42;48
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;29665;22600;2929;4085;51;2081;1451;69;220;42;803;315;108;244;68;317;386
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;1612;1289;202;115;6;60;81;3;3;7;52;24;5;15;3;16;16
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;38;25;2;10;1;3;12;2;-;1;8;6;1;1;-;1;5
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;53;36;7;10;-;4;5;-;-;-;5;1;-;2;1;-;1
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;358;195;22;136;5;63;184;5;18;6;115;45;24;15;15;40;48
+2017;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;63545;47227;5983;10033;302;5231;23469;407;1456;4846;14555;2874;989;5624;413;2205;2740
+2018;Zur Heizung verwendete primäre Energie;Öl;867;665;96;103;3;32;331;6;37;20;218;93;23;52;25;50;59
+2018;Zur Heizung verwendete primäre Energie;Gas;48311;36408;4260;7539;104;3749;5962;274;768;138;3816;1417;544;1251;279;966;1299
+2018;Zur Heizung verwendete primäre Energie;Strom;1495;1229;120;133;13;58;799;12;107;37;454;154;76;145;25;189;220
+2018;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;9767;5404;468;3843;52;1829;2062;170;381;46;835;307;119;147;154;630;820
+2018;Zur Heizung verwendete primäre Energie;Geothermie;8839;7007;783;1040;9;547;442;9;136;16;163;66;32;36;10;118;129
+2018;Zur Heizung verwendete primäre Energie;Umweltthermie;42688;35171;4051;3444;22;1903;2569;154;511;39;1399;467;342;333;147;466;670
+2018;Zur Heizung verwendete primäre Energie;Solarthermie;722;552;76;93;1;45;69;2;11;5;39;20;6;8;4;12;15
+2018;Zur Heizung verwendete primäre Energie;Holz;4298;2837;471;972;18;616;853;33;78;91;510;229;24;153;41;141;173
+2018;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;289;191;22;72;4;48;54;2;6;9;32;17;3;5;3;5;18
+2018;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;265;22;82;82;2;51;46;3;7;5;20;9;1;2;3;11;15
+2018;Zur Heizung verwendete primäre Energie;Sonstige Energie;240;150;19;71;-;27;151;7;11;4;105;30;50;15;6;24;37
+2018;Zur Heizung verwendete primäre Energie;Keine Energie;88;73;8;7;-;1;13809;5;4;4724;8711;712;91;3834;5;365;489
+2018;Zur Heizung verwendete sekundäre Energie;Öl;21;12;6;2;1;1;24;-;2;1;17;9;-;4;2;4;5
+2018;Zur Heizung verwendete sekundäre Energie;Gas;1649;885;101;652;11;296;453;21;89;6;216;78;49;55;15;121;149
+2018;Zur Heizung verwendete sekundäre Energie;Strom;11235;9373;894;958;10;488;1034;86;174;20;579;187;115;132;101;175;279
+2018;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;97;80;2;15;-;4;3;1;-;-;1;1;-;-;-;1;2
+2018;Zur Heizung verwendete sekundäre Energie;Geothermie;215;133;37;45;-;28;49;2;13;1;19;5;2;1;6;14;17
+2018;Zur Heizung verwendete sekundäre Energie;Umweltthermie;970;639;99;228;4;114;257;5;41;3;150;43;44;29;19;58;65
+2018;Zur Heizung verwendete sekundäre Energie;Solarthermie;17703;12492;1876;3302;33;1701;1226;44;211;29;734;289;99;216;63;208;252
+2018;Zur Heizung verwendete sekundäre Energie;Holz;15687;13409;1528;730;20;429;545;65;53;53;315;128;20;72;62;59;124
+2018;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;94;44;7;42;1;28;22;-;3;4;10;7;-;1;1;5;9
+2018;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;84;6;25;25;-;8;13;4;-;3;3;3;-;-;-;3;8
+2018;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;385;238;11;133;3;55;157;8;18;8;90;41;24;12;7;33;45
+2018;Zur Heizung verwendete sekundäre Energie;Keine Energie;69729;52488;5829;11267;145;5754;23364;441;1453;5006;14168;2730;958;5459;426;2296;2989
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Öl;789;603;86;97;3;29;268;6;32;14;174;69;21;39;21;42;49
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Gas;39347;28908;3496;6852;91;3396;4841;261;633;112;3040;1131;416;976;254;795;1087
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Strom;2350;1729;200;406;15;164;2557;70;422;69;1411;455;319;419;75;585;705
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;9645;5351;453;3790;51;1791;1755;166;314;38;714;258;103;111;148;523;699
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;8664;6917;776;962;9;524;373;6;113;16;141;55;27;30;10;97;101
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;41776;34575;3947;3234;20;1803;2057;111;407;38;1141;385;257;274;136;360;510
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;10537;8709;938;875;15;469;345;14;50;15;201;76;31;64;19;65;77
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Holz;3996;2573;445;960;18;613;656;30;65;69;391;189;24;114;28;101;146
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;294;199;21;70;4;48;52;2;7;9;29;17;3;2;3;5;17
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;257;23;84;84;2;51;40;3;5;5;17;5;1;2;3;10;14
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;214;134;11;69;-;18;102;7;9;5;61;23;19;12;5;20;29
+2018;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14101;1;-;4744;8982;858;90;3938;-;374;510
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;66;50;8;7;1;3;14;-;1;2;7;2;-;3;2;4;4
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;8736;6904;680;1135;17;550;462;26;79;4;249;95;45;64;29;104;134
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;12312;10286;988;1027;11;542;1186;87;210;18;643;217;122;144;103;228;342
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;121;89;3;28;1;11;20;2;1;-;8;3;2;2;-;9;12
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;338;250;35;52;1;37;39;1;8;-;23;7;4;2;5;7;12
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1272;874;135;260;3;134;181;5;22;4;108;33;35;19;14;42;48
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;28338;21491;2815;3999;33;1983;1454;72;249;36;840;321;112;248;83;257;323
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;1456;1146;197;101;12;65;90;37;8;3;32;16;-;6;4;10;47
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;84;38;4;41;1;27;13;3;1;2;7;4;-;1;1;-;4
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;49;3;9;9;-;3;8;3;-;3;2;2;-;-;-;-;4
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;348;210;12;123;3;53;114;6;14;7;56;29;9;9;6;31;45
+2018;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;64749;48471;5516;10617;145;5498;23566;435;1464;5055;14327;2792;982;5483;455;2285;2969
+2019;Zur Heizung verwendete primäre Energie;Öl;728;509;121;98;-;31;268;2;25;6;195;76;12;55;19;40;48
+2019;Zur Heizung verwendete primäre Energie;Gas;46222;34651;4114;7359;98;3620;5937;278;766;150;3759;1259;525;1232;383;984;1358
+2019;Zur Heizung verwendete primäre Energie;Strom;1779;1476;150;149;4;69;877;32;123;38;490;159;79;147;45;194;276
+2019;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;10256;5769;475;3950;62;1961;1957;141;414;44;736;241;112;150;135;622;811
+2019;Zur Heizung verwendete primäre Energie;Geothermie;8744;6980;806;956;2;430;515;14;155;9;205;76;42;52;16;132;153
+2019;Zur Heizung verwendete primäre Energie;Umweltthermie;46024;37575;4434;3987;28;2179;2639;112;548;36;1358;459;319;367;100;585;741
+2019;Zur Heizung verwendete primäre Energie;Solarthermie;672;522;65;82;3;34;71;1;11;5;45;14;7;15;4;9;7
+2019;Zur Heizung verwendete primäre Energie;Holz;4109;2786;405;907;11;592;747;33;55;122;424;151;31;129;62;113;141
+2019;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;224;133;26;65;-;35;64;4;8;21;27;13;2;7;2;4;18
+2019;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;253;30;55;55;1;29;40;4;5;4;20;11;3;3;1;7;12
+2019;Zur Heizung verwendete primäre Energie;Sonstige Energie;339;238;19;77;5;48;131;7;15;-;90;24;47;16;1;19;24
+2019;Zur Heizung verwendete primäre Energie;Keine Energie;107;95;10;2;-;1;13790;1;5;4642;8761;703;82;3898;4;381;509
+2019;Zur Heizung verwendete sekundäre Energie;Öl;22;11;5;6;-;2;18;1;1;-;13;5;-;6;1;3;4
+2019;Zur Heizung verwendete sekundäre Energie;Gas;1702;905;115;671;11;328;424;24;76;3;192;68;44;46;20;129;163
+2019;Zur Heizung verwendete sekundäre Energie;Strom;12009;10047;939;1017;6;429;985;36;162;16;572;176;144;156;47;199;259
+2019;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;73;64;2;7;-;3;16;-;6;-;7;2;1;1;3;3;2
+2019;Zur Heizung verwendete sekundäre Energie;Geothermie;218;125;23;67;3;36;26;4;6;1;8;2;-;3;3;7;11
+2019;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1104;755;101;243;5;112;229;7;36;1;132;49;31;28;11;53;71
+2019;Zur Heizung verwendete sekundäre Energie;Solarthermie;17041;12045;1774;3191;31;1575;1251;60;220;29;719;231;85;234;98;223;292
+2019;Zur Heizung verwendete sekundäre Energie;Holz;14702;12515;1503;681;3;364;506;55;53;69;266;105;19;70;51;63;116
+2019;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;124;88;3;33;-;6;18;3;3;1;3;3;-;-;-;8;11
+2019;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;51;4;2;2;2;1;9;1;1;-;6;4;-;-;1;1;3
+2019;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;284;160;10;112;2;40;138;6;12;3;80;34;24;11;5;37;44
+2019;Zur Heizung verwendete sekundäre Energie;Keine Energie;72127;54143;6176;11657;151;6133;23416;432;1554;4954;14112;2507;913;5516;532;2364;3122
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Öl;664;460;109;95;-;32;213;2;23;3;151;58;8;41;19;34;40
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Gas;37990;27810;3420;6674;86;3297;4928;266;644;120;3050;1021;412;965;367;848;1167
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Strom;2839;2135;251;444;9;201;2520;49;403;72;1393;423;296;441;63;603;734
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;10227;5785;464;3916;62;1951;1670;140;330;39;632;199;96;123;134;529;701
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;8507;6836;781;888;2;399;442;12;135;9;178;68;36;43;15;108;125
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;45057;37028;4305;3699;25;2059;2140;102;456;32;1129;383;263;304;94;421;552
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;9678;7886;870;910;12;414;324;14;64;14;179;55;25;62;18;53;71
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Holz;3700;2436;383;870;11;569;579;30;51;95;319;121;23;93;58;84;119
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;226;136;27;63;-;34;54;4;7;20;19;9;1;3;2;4;16
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;246;31;54;54;1;28;37;4;4;3;17;9;2;3;1;9;15
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;323;229;14;74;6;45;97;6;13;5;53;18;20;11;1;20;26
+2019;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14032;-;-;4665;8990;822;79;3982;-;377;532
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;60;41;12;7;-;2;16;1;1;-;12;5;-;4;1;2;3
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;8114;6292;666;1141;15;560;410;28;78;4;202;59;41;54;29;98;137
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;12877;10721;1029;1118;9;468;1159;38;217;16;627;206;157;166;52;261;323
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;65;52;-;12;1;7;16;-;4;-;9;4;2;2;1;3;5
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;340;238;30;70;2;36;19;3;2;1;6;2;-;2;2;7;10
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1409;970;148;286;5;135;172;11;26;2;90;30;19;17;12;43;62
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;27239;20610;2714;3884;31;1894;1440;74;244;34;819;271;98;252;111;269;339
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;2041;1572;240;229;-;121;118;5;14;21;62;26;9;13;9;16;22
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;125;92;3;30;-;6;13;3;1;1;1;1;-;-;-;7;10
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;36;-;1;1;2;-;5;1;-;-;3;1;-;-;1;1;2
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;280;174;9;96;1;38;103;5;7;4;53;18;17;8;5;34;37
+2019;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;66871;50106;5804;10813;148;5762;23565;460;1536;4994;14226;2563;918;5553;549;2349;3148
+2020;Zur Heizung verwendete primäre Energie;Öl;479;314;79;85;1;17;200;1;17;13;129;50;10;36;7;40;46
+2020;Zur Heizung verwendete primäre Energie;Gas;40279;29598;3813;6775;93;3187;4782;177;609;136;3072;1017;382;1124;238;788;1055
+2020;Zur Heizung verwendete primäre Energie;Strom;2149;1719;215;211;4;97;989;30;130;50;546;184;82;158;49;233;323
+2020;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;9938;5402;607;3848;81;1624;2034;113;466;42;769;246;101;161;157;644;783
+2020;Zur Heizung verwendete primäre Energie;Geothermie;10257;7919;1150;1179;9;479;506;17;132;14;193;69;26;51;14;150;172
+2020;Zur Heizung verwendete primäre Energie;Umweltthermie;55544;44269;6241;5001;33;2311;2960;102;608;33;1549;495;311;444;141;668;852
+2020;Zur Heizung verwendete primäre Energie;Solarthermie;754;567;98;89;-;51;78;-;21;4;36;12;3;10;4;17;18
+2020;Zur Heizung verwendete primäre Energie;Holz;4261;2801;533;916;11;532;790;20;51;148;434;165;24;139;35;137;141
+2020;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;288;146;29;112;1;49;62;2;8;12;24;13;-;9;-;16;20
+2020;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;213;24;60;60;1;27;38;1;5;4;24;7;2;9;1;4;9
+2020;Zur Heizung verwendete primäre Energie;Sonstige Energie;330;199;46;82;3;38;120;2;15;5;85;28;39;13;4;13;14
+2020;Zur Heizung verwendete primäre Energie;Keine Energie;104;89;12;3;-;-;14502;-;1;5030;9090;703;69;3965;5;381;494
+2020;Zur Heizung verwendete sekundäre Energie;Öl;23;16;3;3;1;-;22;-;2;3;11;3;-;5;1;6;6
+2020;Zur Heizung verwendete sekundäre Energie;Gas;1598;720;117;749;12;378;510;26;88;1;247;78;59;58;18;148;199
+2020;Zur Heizung verwendete sekundäre Energie;Strom;15018;12402;1319;1295;2;565;1021;45;200;23;543;162;124;146;45;210;290
+2020;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;61;45;6;9;1;5;13;-;5;-;5;3;-;2;-;3;4
+2020;Zur Heizung verwendete sekundäre Energie;Geothermie;254;154;30;70;-;35;42;2;8;3;14;7;1;2;2;15;20
+2020;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1219;815;135;268;1;147;216;9;39;-;119;35;20;41;13;49;60
+2020;Zur Heizung verwendete sekundäre Energie;Solarthermie;16064;11044;1893;3098;29;1504;1082;43;170;29;628;230;73;212;50;212;267
+2020;Zur Heizung verwendete sekundäre Energie;Holz;14424;12017;1697;705;5;327;499;14;47;88;287;115;19;78;41;63;85
+2020;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;101;66;6;29;-;8;21;3;1;2;8;7;-;1;-;7;12
+2020;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;49;10;6;6;-;3;8;-;1;1;4;2;-;-;1;2;2
+2020;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;689;421;26;239;3;115;161;6;22;6;88;28;18;15;7;39;48
+2020;Zur Heizung verwendete sekundäre Energie;Keine Energie;75096;55418;7605;11890;183;5325;23466;317;1480;5335;13997;2319;735;5559;477;2337;2934
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Öl;414;272;68;73;1;15;153;1;15;9;97;40;10;21;6;31;35
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Gas;33156;23747;3139;6180;90;2965;3928;174;526;115;2449;814;292;884;194;664;905
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Strom;3208;2357;314;532;5;205;2569;43;404;81;1378;395;283;440;97;663;771
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;9809;5346;596;3787;80;1595;1730;110;386;39;659;190;91;135;151;536;669
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;9999;7770;1119;1101;9;449;425;14;104;13;174;59;23;50;13;120;135
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;54498;43614;6122;4730;32;2201;2379;91;491;31;1259;413;231;366;122;507;653
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;8736;7062;876;794;4;339;342;11;64;18;196;67;13;52;37;53;63
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Holz;3953;2518;512;912;11;532;593;16;46;115;327;137;22;103;29;89;108
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;296;150;32;113;1;49;58;2;9;15;21;13;-;6;1;11;16
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;206;24;59;59;1;25;29;1;5;3;16;5;-;8;1;4;8
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;321;193;45;80;3;37;82;2;12;6;50;19;17;8;4;12;11
+2020;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14773;-;1;5046;9325;837;67;4046;-;401;553
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;62;41;10;10;1;2;16;-;4;1;6;2;-;3;-;5;5
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;7358;5496;667;1181;14;553;491;31;71;3;255;76;43;57;45;131;171
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;16051;13222;1419;1408;2;600;1149;47;237;28;589;189;121;164;56;248;320
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;76;53;6;17;-;11;21;1;9;-;9;7;-;2;-;2;4
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;343;225;46;71;1;37;30;2;7;2;9;6;1;-;-;10;16
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1628;1134;186;305;3;169;180;11;38;-;91;26;14;32;12;40;55
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;25239;18626;2719;3854;40;1763;1245;51;202;39;712;244;77;243;58;241;303
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;1916;1463;248;204;1;90;155;5;15;25;89;44;5;24;12;21;26
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;88;54;6;28;-;7;11;3;-;-;5;3;-;2;-;3;6
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;32;4;4;4;-;2;7;-;1;1;3;1;-;-;1;2;2
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;702;426;40;233;3;111;117;7;13;4;61;13;14;8;8;32;37
+2020;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;71101;52387;7496;11046;172;5067;23639;307;1466;5388;14122;2378;774;5584;463;2356;2982
+2021;Zur Heizung verwendete primäre Energie;Öl;390;287;50;52;1;18;183;33;17;8;99;40;14;27;4;26;62
+2021;Zur Heizung verwendete primäre Energie;Gas;31131;22226;3417;5423;65;2444;4405;173;562;104;2838;922;331;1089;209;728;945
+2021;Zur Heizung verwendete primäre Energie;Strom;2441;1881;275;276;9;115;963;19;131;40;537;168;78;164;59;236;281
+2021;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;9780;5280;725;3716;59;1534;1943;128;414;50;765;271;95;161;120;586;743
+2021;Zur Heizung verwendete primäre Energie;Geothermie;11288;8362;1438;1483;5;550;574;27;139;11;236;90;25;72;24;161;181
+2021;Zur Heizung verwendete primäre Energie;Umweltthermie;67756;51749;9201;6772;34;2920;3684;149;766;49;1958;618;351;607;162;762;995
+2021;Zur Heizung verwendete primäre Energie;Solarthermie;681;481;97;102;1;36;188;1;18;8;149;16;7;29;87;12;11
+2021;Zur Heizung verwendete primäre Energie;Holz;4701;2857;752;1087;5;578;962;37;71;188;549;244;30;173;28;117;174
+2021;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;285;154;34;96;1;33;72;3;10;12;31;11;5;8;3;16;22
+2021;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;292;35;57;57;1;24;59;-;8;5;31;10;3;10;1;15;20
+2021;Zur Heizung verwendete primäre Energie;Sonstige Energie;444;324;33;87;-;27;163;2;22;9;111;34;43;20;6;19;28
+2021;Zur Heizung verwendete primäre Energie;Keine Energie;117;94;17;6;-;3;15775;-;1;5441;9939;798;64;4445;7;394;533
+2021;Zur Heizung verwendete sekundäre Energie;Öl;14;9;3;2;-;-;6;-;2;-;2;-;-;2;-;2;2
+2021;Zur Heizung verwendete sekundäre Energie;Gas;1804;824;152;817;11;369;484;31;73;7;238;89;38;59;14;135;184
+2021;Zur Heizung verwendete sekundäre Energie;Strom;17919;14247;1930;1731;11;726;1306;89;213;19;716;185;122;196;125;269;383
+2021;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;45;20;5;19;1;12;5;-;3;-;2;2;-;-;-;-;-
+2021;Zur Heizung verwendete sekundäre Energie;Geothermie;216;145;28;43;-;34;23;-;3;-;12;4;1;5;1;8;8
+2021;Zur Heizung verwendete sekundäre Energie;Umweltthermie;1170;773;120;275;2;112;249;9;43;2;137;55;34;35;9;58;68
+2021;Zur Heizung verwendete sekundäre Energie;Solarthermie;14419;9594;2068;2740;17;1160;1178;39;225;27;697;254;63;220;95;190;233
+2021;Zur Heizung verwendete sekundäre Energie;Holz;14346;11201;2350;791;4;370;485;16;39;73;283;114;20;75;44;74;98
+2021;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;145;78;6;60;1;12;21;3;10;2;5;3;1;-;-;1;8
+2021;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;44;9;10;10;-;5;8;-;1;-;5;2;-;1;2;2;2
+2021;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;781;458;46;276;1;146;188;11;26;7;98;20;32;14;14;46;67
+2021;Zur Heizung verwendete sekundäre Energie;Keine Energie;78403;56520;9357;12393;133;5336;25018;374;1521;5788;15048;2494;735;6198;406;2287;2942
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Öl;363;266;46;50;1;18;114;1;16;6;67;23;10;22;2;24;27
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Gas;26171;18193;2839;5073;66;2297;3706;163;482;83;2334;761;276;854;197;644;834
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Strom;3578;2571;405;587;15;229;2532;97;393;68;1347;396;239;452;93;627;768
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;9604;5162;716;3672;54;1520;1665;124;350;38;674;235;89;131;115;479;625
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;11068;8256;1406;1401;5;531;470;23;110;9;201;78;23;58;20;127;141
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;66359;50907;9004;6419;29;2785;3048;122;646;50;1635;526;272;510;145;595;778
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;6776;5298;836;638;4;245;399;12;60;15;253;53;19;61;99;59;65
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Holz;4425;2615;722;1083;5;572;757;23;63;142;447;218;29;134;27;82;140
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;302;167;35;99;1;33;63;4;12;6;28;9;4;7;4;13;19
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;271;35;56;56;1;24;52;-;8;6;28;9;2;10;1;10;16
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;389;280;30;79;-;28;116;3;19;9;71;22;17;16;7;14;25
+2021;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;16049;-;-;5493;10158;892;66;4550;-;398;557
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;27;15;7;5;-;-;7;-;1;-;3;2;-;1;-;3;3
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;5894;4189;602;1090;13;467;438;32;73;2;210;75;29;51;22;121;163
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;19647;15608;2120;1904;15;808;1481;73;237;24;812;221;130;237;133;335;434
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;87;36;6;44;1;7;15;-;8;-;6;-;1;2;1;1;2
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;317;209;53;55;-;36;29;2;6;1;13;2;-;6;4;7;10
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1653;1087;220;345;1;141;193;12;35;1;94;27;22;33;8;51;63
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;21746;15433;2976;3315;22;1335;1296;41;244;28;768;250;72;243;116;215;258
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;1934;1335;340;256;3;119;90;3;14;8;46;21;3;11;5;19;21
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;131;66;5;59;1;10;12;2;6;-;3;3;-;-;-;1;5
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;38;7;10;10;-;5;6;-;1;-;4;2;-;-;2;1;1
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;561;310;40;210;1;105;143;9;24;3;67;16;15;9;12;40;58
+2021;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;77271;55585;9698;11864;124;5249;25261;398;1510;5858;15217;2603;774;6212;407;2278;2977
+2022;Zur Heizung verwendete primäre Energie;Öl;229;144;43;42;-;15;150;6;11;12;105;37;10;42;6;16;21
+2022;Zur Heizung verwendete primäre Energie;Gas;15348;10449;1468;3384;47;1504;3083;126;367;87;2006;644;257;723;165;497;673
+2022;Zur Heizung verwendete primäre Energie;Strom;2252;1682;259;303;8;132;927;18;120;45;542;177;57;189;51;202;257
+2022;Zur Heizung verwendete primäre Energie;Fernwärme/Fernkälte;8711;4468;681;3508;54;1542;1986;99;360;55;897;262;79;174;280;575;710
+2022;Zur Heizung verwendete primäre Energie;Geothermie;8929;6223;1227;1473;6;561;670;42;169;10;292;118;36;93;16;157;213
+2022;Zur Heizung verwendete primäre Energie;Umweltthermie;69659;51941;9495;8176;47;3659;4094;127;856;43;2319;776;393;747;162;749;973
+2022;Zur Heizung verwendete primäre Energie;Solarthermie;649;433;105;111;-;39;118;2;15;4;75;22;9;29;6;22;24
+2022;Zur Heizung verwendete primäre Energie;Holz;3900;2244;501;1152;3;679;914;24;72;151;541;234;22;195;28;126;193
+2022;Zur Heizung verwendete primäre Energie;Biogas/Biomethan;365;154;25;185;1;87;101;32;8;14;35;16;10;4;2;12;49
+2022;Zur Heizung verwendete primäre Energie;Sonstige Biomasse;252;28;91;91;3;48;68;2;8;9;41;19;1;13;3;8;13
+2022;Zur Heizung verwendete primäre Energie;Sonstige Energie;291;183;23;81;4;27;151;2;10;8;107;36;47;13;4;24;28
+2022;Zur Heizung verwendete primäre Energie;Keine Energie;74;60;9;4;1;2;13735;3;-;4354;9027;806;67;4063;6;351;542
+2022;Zur Heizung verwendete sekundäre Energie;Öl;9;7;1;1;-;1;5;-;1;-;4;2;1;1;-;-;1
+2022;Zur Heizung verwendete sekundäre Energie;Gas;1423;580;97;734;12;359;460;50;72;4;216;86;29;55;15;118;179
+2022;Zur Heizung verwendete sekundäre Energie;Strom;17650;13693;2043;1900;14;802;1240;46;232;22;688;198;127;207;52;252;331
+2022;Zur Heizung verwendete sekundäre Energie;Fernwärme/Fernkälte;99;82;3;13;1;7;14;-;4;-;7;2;1;3;-;3;4
+2022;Zur Heizung verwendete sekundäre Energie;Geothermie;148;106;10;31;1;16;40;2;5;-;12;5;-;2;3;21;23
+2022;Zur Heizung verwendete sekundäre Energie;Umweltthermie;925;600;84;238;3;108;212;7;36;1;122;38;23;31;15;46;68
+2022;Zur Heizung verwendete sekundäre Energie;Solarthermie;10092;6434;1364;2282;12;1037;1018;39;193;28;574;191;81;198;45;184;231
+2022;Zur Heizung verwendete sekundäre Energie;Holz;11062;8332;1929;798;3;451;407;22;44;56;232;104;11;75;21;53;89
+2022;Zur Heizung verwendete sekundäre Energie;Biogas/Biomethan;196;155;6;34;1;15;21;1;3;2;5;-;-;2;2;10;11
+2022;Zur Heizung verwendete sekundäre Energie;Sonstige Biomasse;30;2;4;4;-;1;10;-;1;-;7;5;-;-;2;2;4
+2022;Zur Heizung verwendete sekundäre Energie;Sonstige Energie;244;140;44;58;2;18;112;2;14;4;70;16;25;10;14;22;27
+2022;Zur Heizung verwendete sekundäre Energie;Keine Energie;68781;47958;8281;12417;125;5480;22458;314;1391;4675;14050;2500;690;5701;560;2028;2728
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Öl;222;143;40;39;-;14;115;5;11;8;77;33;6;27;4;14;18
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Gas;13472;8932;1263;3233;44;1458;2531;110;316;70;1610;515;199;567;157;425;564
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Strom;3280;2291;380;597;12;211;2369;43;375;66;1331;408;237;439;77;554;654
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Fernwärme/Fernkälte;8619;4419;671;3476;53;1528;1734;99;307;48;786;212;70;147;277;494;619
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Geothermie;8677;6071;1205;1397;4;546;540;33;131;9;248;101;30;77;15;119;162
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Umweltthermie;68239;51095;9273;7827;44;3529;3409;121;725;37;1939;644;322;626;148;587;783
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Solarthermie;3617;2677;472;463;5;179;291;13;39;10;167;51;14;62;14;62;75
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Holz;3649;2024;485;1136;4;681;727;23;69;126;430;202;14;152;24;79;155
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Biogas/Biomethan;360;165;25;169;1;73;84;32;8;10;23;9;7;4;2;11;44
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Biomasse;248;28;92;92;3;50;55;1;7;7;34;16;1;12;3;6;11
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Sonstige Energie;276;169;22;81;4;26;95;2;8;5;58;19;15;8;8;22;21
+2022;Zur Warmwasserbereitung verwendete primäre Energie;Keine Energie;-;-;-;-;-;-;14047;1;-;4396;9284;937;73;4164;-;366;590
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Öl;9;6;1;2;-;1;4;-;1;-;2;1;1;-;-;1;1
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Gas;2879;1769;252;844;14;397;364;30;48;3;193;58;26;56;22;90;132
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Strom;19435;15061;2222;2139;13;848;1404;76;262;22;747;219;148;233;51;297;410
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Fernwärme/Fernkälte;98;81;5;12;-;9;13;-;6;-;3;1;1;-;-;4;4
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Geothermie;193;142;16;33;2;13;35;1;7;-;13;4;-;4;3;14;15
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Umweltthermie;1278;824;158;293;3;138;172;6;34;1;91;29;12;21;15;40;53
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Solarthermie;14208;9472;1959;2763;14;1200;1168;58;211;33;665;217;90;236;56;201;257
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Holz;1068;760;155;151;2;69;42;2;7;5;23;12;1;6;2;5;7
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Biogas/Biomethan;134;102;4;27;1;14;17;1;2;1;6;-;-;2;3;7;9
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Biomasse;22;2;6;6;-;2;6;-;1;-;3;2;-;-;1;2;2
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Sonstige Energie;207;112;39;54;2;20;65;3;5;2;37;6;9;7;11;18;23
+2022;Zur Warmwasserbereitung verwendete sekund. Energie;Keine Energie;71128;49768;9051;12186;123;5584;22707;306;1412;4725;14204;2598;700;5720;565;2060;2783
+__________
+© Statistisches Bundesamt (Destatis), 2023
+Stand: 28.01.2024 / 11:21:05
