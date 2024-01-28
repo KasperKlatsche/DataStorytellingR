@@ -5,4 +5,4 @@
 #31131-0003
 #31141-0003
 
-genehmigungen <- read.table()
+genehmigungen <- read.table("./data/Bautaetigkeit/20240128_Baugenehmigungen neuer Gebaeude.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")

@@ -4,7 +4,7 @@
 library(ggplot2)
 library(gganimate)
 
-data <- read.table("./data/20240126_Ausbildungsvertraege_StatBundAmt.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
+data <- read.table("./data/Ausbildung/20240126_Ausbildungsvertraege_StatBundAmt.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
 header <- c("Jahr", "Branche", "Herkunft", "Geschlecht",unlist(data[3,5:ncol(data)]))
 data <- data[4:nrow(data),]
 names(data) <- header
