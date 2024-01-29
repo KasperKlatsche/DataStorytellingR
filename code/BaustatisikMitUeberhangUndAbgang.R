@@ -5,6 +5,9 @@
 #31131-0003
 #31141-0003
 
+library(ggplot2)
+library(gganimate)
+
 ueberhang <- read.table("./data/Bautaetigkeit/20240128_Bauueberhang genehmigter Bauvorhaben.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
 abgang <- read.table("./data/Bautaetigkeit/20240128_Bauabgang genehmigter Bauvorhaben.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
 
@@ -24,7 +27,12 @@ for(i in 1:ncol(genehmigungen)) {
 genehmigungenAgg <- aggregate(. ~ Jahr,
           genehmigungen[which(genehmigungen$Energieverwendung=="Zur Heizung verwendete primäre Energie"),c(1,4:ncol(genehmigungen))],
           sum)
-names(genehmigungenAgg) <- paste("genehmigung", gsub(" ","",names(genehmigungenAgg)), sep="")
+temp <- data.frame(Jahr=numeric(), Typ=character(), genehmigungen=numeric())
+for(i in 2:ncol(genehmigungenAgg)) {
+  temp <- rbind(temp, data.frame(genehmigungenAgg[,1], rep(names(genehmigungenAgg)[i],nrow(genehmigungenAgg)), genehmigungenAgg[,i]))
+}
+names(temp) <- c("Jahr","Typ","Genehmigungen")
+genehmigungenAgg <- temp
 
 #Fertigstellung vorbereiten
 fertigstellung <- read.table("./data/Bautaetigkeit/20240128_Baufertigstellungen neuer Gebaeude.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
@@ -42,4 +50,19 @@ for(i in 1:ncol(fertigstellung)) {
 fertigstellungAgg <- aggregate(. ~ Jahr,
                                fertigstellung[which(fertigstellung$Energieverwendung=="Zur Heizung verwendete primäre Energie"),c(1,4:ncol(fertigstellung))],
                               sum)
-names(fertigstellungAgg) <- paste("fertigstellung", gsub(" ","",names(fertigstellungAgg)), sep="")
+temp <- data.frame(Jahr=numeric(), Typ=character(), fertigstellungen=numeric())
+for(i in 2:ncol(fertigstellungAgg)) {
+  temp <- rbind(temp, data.frame(fertigstellungAgg[,1], rep(names(fertigstellungAgg)[i],nrow(fertigstellungAgg)), fertigstellungAgg[,i]))
+}
+names(temp) <- c("Jahr","Typ","Fertigstellungen")
+fertigstellungAgg <- temp
+
+#Genehmigungen und Fertigstellungen zusammenführen und graphisch darstellen
+data <- merge(x=genehmigungenAgg, y=fertigstellungAgg, by=c("Jahr","Typ"))
+g <- ggplot(data, aes(x=Genehmigungen, y=Fertigstellungen, colour=Typ)) +
+  geom_point() +
+  transition_time(Jahr) +
+  ease_aes('linear') +
+  labs(title = "Baustatistik {frame_time}")
+print(g)
+#mega langweilig

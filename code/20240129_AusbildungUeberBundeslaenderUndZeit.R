@@ -93,7 +93,7 @@ g4 <- ggplot(data[which(data$Branche!="Insgesamt" & data$Herkunft=="Insgesamt" &
   labs(title = "Apprenticeship contracts by sector and gender in {frame_time}")
 #dieser Graph scheint interessante Aussagen zu beinhalten - nehmen wir
 animate(g4, width = 1100, height = 1200)
-anim_save("./graphs/AusbildungsvertraegeBrancheGeschlecht.gif")
+anim_save("./graphs/20240129_AusbildungsvertraegeBrancheGeschlecht.gif")
 
 
 #------------------ jetzt nochmal Zahlen zusammentragen für den Beitrag ------------------------------
