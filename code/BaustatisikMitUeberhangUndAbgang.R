@@ -8,8 +8,47 @@
 library(ggplot2)
 library(gganimate)
 
+#----------------------------- Graph Ueberhang gegen Abgang ----------------------------------------
+
 ueberhang <- read.table("./data/Bautaetigkeit/20240128_Bauueberhang genehmigter Bauvorhaben.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
+names(ueberhang)  <- c("Stichtag", "Gebäudeart", "Bauherr", ueberhang[2,4:ncol(ueberhang)])
+ueberhang <- ueberhang[4:nrow(ueberhang),]
+ueberhang$Stichtag <- as.numeric(format(as.POSIXct(ueberhang$Stichtag, format="%d.%m.%Y"), "%Y"))
+for(i in 2:3) {
+  ueberhang[,i] <- as.factor(ueberhang[,i])
+}
+for(i in 4:ncol(ueberhang)) {
+  ueberhang[,i] <- as.numeric(ueberhang[,i])
+}
+
 abgang <- read.table("./data/Bautaetigkeit/20240128_Bauabgang genehmigter Bauvorhaben.csv", header=F, skip = 3, sep=";", fileEncoding="latin1")
+names(abgang)  <- c("Stichtag", "Gebäudeart", "Bauherr", abgang[2,4:ncol(abgang)])
+abgang <- abgang[4:nrow(abgang),]
+for(i in 1:ncol(abgang)){
+  if(i>1 & i<4) {
+    abgang[,i] <- as.factor(abgang[,i])
+  } else {
+    abgang[,i] <- as.numeric(abgang[,i])
+  }
+}
+
+#jetzt die datensätze zusammenführen
+ueberhang <- aggregate(ueberhang$`Gebäude/Baumaßnahmen`, by=list(stichtag=ueberhang$Stichtag, bauherr=ueberhang$Bauherr), FUN=sum)
+names(ueberhang) <- c("Stichtag", "Bauherr", "Ueberhang")
+abgang <- aggregate(abgang$`Gebäude/Gebäudeteile`, by=list(stichtag=abgang$Stichtag, bauherr=abgang$Bauherr), FUN=sum)
+names(abgang) <- c("Stichtag", "Bauherr", "Abgang")
+data <- merge(x=ueberhang, y=abgang, by=c("Stichtag","Bauherr"))
+
+#Graphen zeichnen
+g <- ggplot(data, aes(x=Ueberhang, y=Abgang, colour=Bauherr)) +
+  geom_point() +
+  transition_time(as.integer(Stichtag)) +
+  ease_aes('linear') +
+  labs(title = "Baustatistik {frame_time}")
+animate(g, width = 600, height = 500)
+#auch mega langweilig
+
+#----------------------------- Graph Genehmigungen gegen Fertigstellungen ----------------------------------------
 
 #Genehmigungen vorbereiten
 genehmigungen <- read.table("./data/Bautaetigkeit/20240128_Baugenehmigungen neuer Gebaeude.csv", header=F, skip = 2, sep=";", fileEncoding="latin1")
@@ -66,3 +105,4 @@ g <- ggplot(data, aes(x=Genehmigungen, y=Fertigstellungen, colour=Typ)) +
   labs(title = "Baustatistik {frame_time}")
 print(g)
 #mega langweilig
+

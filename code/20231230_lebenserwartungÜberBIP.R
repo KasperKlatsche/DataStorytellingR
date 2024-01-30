@@ -21,4 +21,4 @@ p <- ggplot(
   transition_time(year) +
   labs(title = "Year: {frame_time}")
 
-anim_save("../graphs/liveExpectanceOverGDP.gif", p)
+anim_save("../graphs/lifeExpectanceOverGDP.gif", p)
