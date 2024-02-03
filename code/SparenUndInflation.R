@@ -80,9 +80,10 @@ animate(g1, width = 500, height = 600)
 
 
 #jetzt den Graphen zeichnen
-g2 <- ggplot(left_join(infla,data,by="time"), aes(x=time)) +
-  geom_line(aes(y=inflation)) +
-  geom_line(aes(y=quote)) +
+g2 <- ggplot(infla, aes(x=time, y=inflation)) +
+  geom_line() +
+  geom_line(data=data, aes(x=time, y=quote)) +
+  geom_smooth(data=data, aes(x=time, y=quote)) +
   theme_minimal() +
   transition_reveal(time) +
   labs(title = "Relation of relative savings to inflation in {frame_time}")
