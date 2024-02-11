@@ -1,0 +1,12 @@
+🚀 NVIDIA's Soaring Success: Fueling the Rise of #LargeLanguageModels (LLMs) 🚀
+The synergy between the triumph of #LLMs and the surge in #NVIDIA shares is undeniable! 📈 For years, NVIDIA has been riding high, and a significant factor behind this ascent is the fervor surrounding LLMs and their insatiable demand for dedicated computing resources – a demand NVIDIA adeptly fulfills.
+
+A brief (by no means exhaustive) outline of the history of today's LLMs
+- 2017 the paper "Attention is all you need" lays the foundation for today's models with the #Transformer unit
+- 2020 the paper "Large Language Models are one-shot learners" states that larger models are able to generalize strongly over linguistic tasks
+- 2022 OpenAI makes its #GPT model available to the public via ChatGPT
+- 2023 users can customize their own LLMs with "GPTs"
+
+What is the connection to NVIDIA? The boom in #DeepLearning, especially with LLMs, is intricately tied to dedicated computing resources, predominantly NVIDIA GPUs. LLMs, exemplified by the mammoth GPT-4 boasting 1.7 trillion parameters, are voraciously hardware-hungry. While these models simmered in the realms of research and development for years, it was only in 2022 with ChatGPT that the public truly grasped their capabilities. This realization of the public can be seen directly in the NVIDIA share. The result is shown in the following graph, with NVIDIA hopelessly outperforming NASDAQ 100 Tech
+
+(data source: YahooFinance, values: adjusted close)
