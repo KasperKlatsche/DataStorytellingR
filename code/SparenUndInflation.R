@@ -2,6 +2,7 @@
 
 library(ggplot2)
 library(gganimate)
+library(dplyr)
 
 #zuerst die daten zum sparen verarbeiten
 spar <- read.table("./data/PrivateSparen/20240130_Sparen privater Haushalte_StatBundAmt.csv", header=F, skip = 1, sep=";", fileEncoding="latin1")
@@ -33,17 +34,6 @@ data <- data.frame(
 )
 names(data) <- c("time","netto","savings","quote")
 
-#netto <- data.frame(daten=sparDaten,
-#                    typ=rep("Netto salary"),
-#                    value=(t(spar[which(grepl("Nettolöhne", spar$Typ)), 4:ncol(spar)]) -
-#                             t(spar[which(grepl("Sparen der privaten", spar$Typ)), 4:ncol(spar)])))
-#names(netto) <- c("time", "type", "values")
-#sparen <- data.frame(daten=sparDaten,
-#                    typ=rep("Share of private savings"),
-#                    value=t(spar[which(grepl("Sparen der privaten", spar$Typ)), 4:ncol(spar)]))
-#names(sparen) <- c("time", "type", "values")
-#data <- rbind(sparen,netto)
-
 #Inflationsdaten laden
 infla <- read.table("./data/PrivateSparen/20240130_Verbraucherpreisindex_StatBundAmt.csv", header=F, skip = 1, sep=";", fileEncoding="latin1")
 infla <- infla[6:nrow(infla),]
@@ -66,7 +56,29 @@ infla$inflation <- as.numeric(gsub(",","\\.",infla[,4]))
 infla <- infla[-which(is.na(infla$inflation)),c(6,7)]
 
 #die beiden Datensätze auf den gleichen Zeitraum passen
-data <- data[-which(data$time<min(infla$time) | data$time>max(infla$time)),]
+data <- data[-which(data$time<min(infla$time)),]
+infla <- infla[-which(infla$time>max(data$time)),]
+
+#jetzt einen gemeinsamen datensatz bilden aus sparquote und inflation
+zusammen <- left_join(infla,data,by=c("time"))[,c(1,2,5)]
+#dabei muss jetzt noch interpoliert werden
+counter <- 0
+value <- -1
+for(i in 1:nrow(zusammen)) {
+  if(is.na(zusammen$quote[i])) {
+    #da wir müssen auf den nächsten Wert warten
+  } else {
+    if(value != -1) {
+      values <- seq(from=value, to=zusammen$quote[i], length.out=(i-counter+1))
+      zusammen$quote[counter:i] <- values
+      counter <- i
+      value <- zusammen$quote[i]
+    } else {
+      counter <- i
+      value <- zusammen$quote[i]
+    }
+  }
+}
 
 
 #jetzt den Graphen zeichnen
@@ -77,14 +89,15 @@ g1 <- ggplot(data, aes(x=time)) +
   transition_reveal(time) +
   labs(title = "Total netto salary with savings share {frame_time}")
 animate(g1, width = 500, height = 600) 
+#langweilig
 
 
 #jetzt den Graphen zeichnen
-g2 <- ggplot(infla, aes(x=time, y=inflation)) +
-  geom_line() +
-  geom_line(data=data, aes(x=time, y=quote)) +
-  geom_smooth(data=data, aes(x=time, y=quote)) +
+g2 <- ggplot(zusammen, aes(x=time)) +
+  geom_line(aes(y=inflation)) +
+  geom_line(aes(y=quote)) +
   theme_minimal() +
   transition_reveal(time) +
   labs(title = "Relation of relative savings to inflation in {frame_time}")
 animate(g2, width = 500, height = 600) 
+#langweilig
